@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="robots" content="noindex">
+  <meta name="robots" content="noindex,nofollow">
   <title>NowNow Smart Canned Responses</title>
   <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
@@ -43,20 +43,26 @@
       border-top: 1px solid #eee;
       padding-top: 16px;
     }
-    .result {
-      margin-bottom: 24px;
+    .card {
+      background: #fcfcfc;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+      padding: 16px;
+      margin-bottom: 16px;
+      transition: all 0.3s ease;
     }
     .lang-title {
       font-weight: bold;
-      margin-bottom: 4px;
+      margin: 8px 0 4px;
     }
     .response {
       background: #f3f3f3;
       padding: 12px;
       border-radius: 8px;
       white-space: pre-wrap;
+      margin-bottom: 8px;
     }
-    .copy-btn {
+    .copy-btn, .toggle-btn {
       margin-top: 8px;
       background: #ff9100;
       color: #fff;
@@ -64,6 +70,9 @@
       padding: 6px 12px;
       border-radius: 6px;
       cursor: pointer;
+    }
+    .hidden {
+      display: none;
     }
   </style>
 </head>
@@ -81,7 +90,6 @@
     let fuse;
 
     function initSearch(data) {
-      console.log("Parsed headers:", Object.keys(data[0] || {}));
       responses = data.map(row => ({
         query: row["Query Type"] || row["Query type"] || row["query type"] || "",
         en: row["English"] || row["english"] || "",
@@ -102,18 +110,23 @@
         return;
       }
 
-      results.forEach(r => {
+      results.forEach((r, index) => {
         const { en, ar, query: q } = r.item;
         const div = document.createElement('div');
-        div.className = 'result';
+        div.className = 'card';
+        const id = `result-${index}`;
+
         div.innerHTML = `
           <div class="lang-title">🎯 Scenario: ${q}</div>
-          <div class="lang-title">🇬🇧 English:</div>
-          <div class="response">${en}</div>
-          <button class="copy-btn" onclick="navigator.clipboard.writeText(\`${en}\`)">Copy</button>
-          <div class="lang-title">🇸🇦 Arabic:</div>
-          <div class="response">${ar}</div>
-          <button class="copy-btn" onclick="navigator.clipboard.writeText(\`${ar}\`)">Copy</button>
+          <button class="toggle-btn" onclick="document.getElementById('${id}').classList.toggle('hidden')">Show/Hide Response</button>
+          <div id="${id}" class="hidden">
+            <div class="lang-title">🇬🇧 English:</div>
+            <div class="response">${en}</div>
+            <button class="copy-btn" onclick="navigator.clipboard.writeText(\`${en}\`)">Copy</button>
+            <div class="lang-title">🇸🇦 Arabic:</div>
+            <div class="response">${ar}</div>
+            <button class="copy-btn" onclick="navigator.clipboard.writeText(\`${ar}\`)">Copy</button>
+          </div>
         `;
         resultsBox.appendChild(div);
       });
@@ -121,7 +134,7 @@
 
     document.getElementById('searchInput').addEventListener('input', e => {
       const query = e.target.value.trim();
-      const result = query ? fuse.search(query, { limit: 3 }) : [];
+      const result = query ? fuse.search(query, { limit: 5 }) : [];
       renderResults(result);
     });
 
