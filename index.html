@@ -7,7 +7,12 @@
   <meta name="robots" content="noindex">
   <script type="module">
     import { pipeline } from 'https://cdn.jsdelivr.net/npm/@xenova/transformers@2.10.0';
+    window.modelReady = false;
     window.embedder = await pipeline('feature-extraction', 'Xenova/all-MiniLM-L6-v2');
+    window.modelReady = true;
+    document.getElementById('status').innerText = '✅ Model ready. Enter your query.';
+    document.getElementById('query').disabled = false;
+    document.getElementById('findBtn').disabled = false;
   </script>
   <style>
     body {
@@ -21,7 +26,12 @@
     }
     h1 {
       font-size: 22px;
-      margin-bottom: 20px;
+      margin-bottom: 10px;
+    }
+    #status {
+      font-size: 14px;
+      margin-bottom: 15px;
+      color: #555;
     }
     textarea {
       width: 100%;
@@ -41,6 +51,10 @@
       border-radius: 6px;
       cursor: pointer;
       font-weight: bold;
+    }
+    button:disabled {
+      background: #ccc;
+      cursor: not-allowed;
     }
     .results {
       max-width: 800px;
@@ -74,8 +88,9 @@
 </head>
 <body>
   <h1>🔍 Smart Semantic Canned Response Finder</h1>
-  <textarea id="query" placeholder="Type full customer context here..."></textarea>
-  <button onclick="findBest()">Find Response</button>
+  <div id="status">⏳ Loading model, please wait...</div>
+  <textarea id="query" placeholder="Type full customer context here..." disabled></textarea>
+  <button id="findBtn" onclick="findBest()" disabled>Find Response</button>
   <div class="results" id="results"></div>
 
   <script>
@@ -100,7 +115,10 @@
       const query = document.getElementById('query').value.trim();
       const resultsBox = document.getElementById('results');
       resultsBox.innerHTML = 'Processing...';
-      if (!query || !window.embedder || responses.length === 0) return;
+      if (!query || !window.modelReady || responses.length === 0) {
+        resultsBox.innerHTML = '❌ Model not ready or no data.';
+        return;
+      }
 
       const embedding = await window.embedder(query, { pooling: 'mean', normalize: true });
       const userVec = embedding.data;
