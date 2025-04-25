@@ -3,19 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NowNow Smart Semantic Canned Responses</title>
   <meta name="robots" content="noindex">
-  <title>NowNow Semantic Response Finder</title>
-  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.14.0"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bert-as-service-lite@latest/dist/bert.min.js"></script>
+  <script type="module">
+    import { pipeline } from 'https://cdn.jsdelivr.net/npm/@xenova/transformers@2.10.0';
+    window.embedder = await pipeline('feature-extraction', 'Xenova/all-MiniLM-L6-v2');
+  </script>
   <style>
     body {
-      margin: 0;
       font-family: 'Segoe UI', sans-serif;
       background: #fff9f3;
+      margin: 0;
+      padding: 20px;
       display: flex;
       flex-direction: column;
       align-items: center;
-      padding: 20px;
     }
     h1 {
       font-size: 22px;
@@ -71,51 +73,44 @@
   </style>
 </head>
 <body>
-  <h1>🔍 Smart Canned Response Finder (AI-powered)</h1>
-  <textarea id="query" placeholder="Type customer context here..."></textarea>
-  <button onclick="findBestResponses()">Find Response</button>
+  <h1>🔍 Smart Semantic Canned Response Finder</h1>
+  <textarea id="query" placeholder="Type full customer context here..."></textarea>
+  <button onclick="findBest()">Find Response</button>
   <div class="results" id="results"></div>
 
   <script>
-    let data = [];
-    let model;
+    let responses = [];
 
     async function loadData() {
-      const res = await fetch("https://a9991.github.io/canned/canned_responses_with_fake_real_embeddings.json");
-      data = await res.json();
+      const res = await fetch('https://a9991.github.io/canned/canned_responses_with_fake_real_embeddings.json');
+      responses = await res.json();
     }
 
-    async function loadModel() {
-      model = await bert.load();
-    }
-
-    function cosineSimilarity(vecA, vecB) {
+    function cosineSimilarity(a, b) {
       let dot = 0, normA = 0, normB = 0;
-      for (let i = 0; i < vecA.length; i++) {
-        dot += vecA[i] * vecB[i];
-        normA += vecA[i] * vecA[i];
-        normB += vecB[i] * vecB[i];
+      for (let i = 0; i < a.length; i++) {
+        dot += a[i] * b[i];
+        normA += a[i] * a[i];
+        normB += b[i] * b[i];
       }
       return dot / (Math.sqrt(normA) * Math.sqrt(normB));
     }
 
-    async function findBestResponses() {
-      const query = document.getElementById("query").value.trim();
-      const resultBox = document.getElementById("results");
-      resultBox.innerHTML = "<p>Processing...</p>";
+    async function findBest() {
+      const query = document.getElementById('query').value.trim();
+      const resultsBox = document.getElementById('results');
+      resultsBox.innerHTML = 'Processing...';
+      if (!query || !window.embedder || responses.length === 0) return;
 
-      if (!query || !model || data.length === 0) return;
+      const embedding = await window.embedder(query, { pooling: 'mean', normalize: true });
+      const userVec = embedding.data;
 
-      const embeddedQuery = await model.embed([query]);
-      const queryVec = embeddedQuery.arraySync()[0];
-
-      const scored = data.map(item => ({
+      const top = responses.map(item => ({
         ...item,
-        score: cosineSimilarity(queryVec, item.embedding)
-      })).sort((a, b) => b.score - a.score);
+        score: cosineSimilarity(userVec, item.embedding)
+      })).sort((a, b) => b.score - a.score).slice(0, 5);
 
-      const top = scored.slice(0, 5);
-      resultBox.innerHTML = top.map(item => `
+      resultsBox.innerHTML = top.map(item => `
         <div class="card">
           <h4>${item.title}</h4>
           <p><strong>EN:</strong> ${item.en}</p>
@@ -126,7 +121,6 @@
     }
 
     loadData();
-    loadModel();
   </script>
 </body>
 </html>
