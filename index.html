@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="robots" content="noindex,nofollow">
-  <title>NowNow Smart Canned Responses</title>
+  <meta name="robots" content="noindex">
+  <title>NowNow Canned Responses</title>
   <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
   <style>
@@ -14,141 +14,94 @@
       background: #fff9f3;
       color: #333;
       display: flex;
-      height: 100vh;
-    }
-    .sidebar {
-      width: 280px;
-      background: #fff;
-      border-right: 1px solid #eee;
-      overflow-y: auto;
+      flex-direction: column;
+      align-items: center;
       padding: 20px;
     }
-    .sidebar h2 {
-      font-size: 20px;
-      margin-bottom: 16px;
+    h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
     }
-    .query-list {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-    }
-    .query-list li {
-      padding: 10px 12px;
-      border-radius: 8px;
-      cursor: pointer;
-      margin-bottom: 6px;
-      background: #ffeacc;
-    }
-    .query-list li:hover,
-    .query-list li.active {
-      background: #ff9100;
-      color: #fff;
-      font-weight: bold;
-    }
-    .main {
-      flex-grow: 1;
-      padding: 30px;
-      overflow-y: auto;
-    }
-    .search-bar {
+    #query {
       width: 100%;
-      padding: 12px;
-      margin-bottom: 24px;
+      max-width: 600px;
+      padding: 10px;
       font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+    #results {
+      width: 100%;
+      max-width: 800px;
+    }
+    .result {
+      background: white;
       border: 1px solid #ddd;
       border-radius: 8px;
+      padding: 15px;
+      margin-bottom: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
     }
-    .lang-title {
+    .group {
+      font-size: 14px;
+      color: #777;
+      margin-bottom: 5px;
+    }
+    .title {
       font-weight: bold;
-      margin-top: 16px;
+      margin-bottom: 10px;
     }
-    .response {
-      background: #f3f3f3;
-      padding: 12px;
-      border-radius: 8px;
-      white-space: pre-wrap;
-    }
-    .copy-btn {
-      margin-top: 8px;
-      background: #ff9100;
-      color: #fff;
-      border: none;
-      padding: 6px 12px;
-      border-radius: 6px;
-      cursor: pointer;
+    .lang {
+      margin-bottom: 6px;
     }
   </style>
 </head>
 <body>
-  <div class="sidebar">
-    <h2>Scenarios</h2>
-    <input type="text" id="searchInput" class="search-bar" placeholder="Search scenario..." />
-    <ul id="queryList" class="query-list"></ul>
-  </div>
-  <div class="main">
-    <div id="responseArea">
-      <p>Select a scenario from the left to view the response.</p>
-    </div>
-  </div>
+  <h1>NowNow Canned Response Finder</h1>
+  <input type="text" id="query" placeholder="Type a customer query..." oninput="searchTemplates()" />
+  <div id="results"></div>
 
   <script>
-    const SHEET_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRYNS7c4iqwKbgNEWyEbUMAQziOefcPV6U4TFt1VZ-AicHwXHwWgvS8O-2Hr51w22My5xUxoL8vFz0O/pub?gid=1336890335&single=true&output=csv";
-    let responses = [];
-    let filtered = [];
+    let templates = [];
     let fuse;
 
-    function renderQueryList(list) {
-      const queryList = document.getElementById('queryList');
-      queryList.innerHTML = '';
-      list.forEach((r, i) => {
-        const li = document.createElement('li');
-        li.textContent = r.query;
-        li.onclick = () => showResponse(i);
-        queryList.appendChild(li);
+    function searchTemplates() {
+      const query = document.getElementById("query").value.trim();
+      const resultsContainer = document.getElementById("results");
+      resultsContainer.innerHTML = "";
+
+      if (!query || !fuse) return;
+
+      const results = fuse.search(query, { limit: 10 });
+      results.forEach(res => {
+        const t = res.item;
+        const div = document.createElement("div");
+        div.className = "result";
+        div.innerHTML = `
+          <div class="group">${t["Assigned Group"]}</div>
+          <div class="title">${t["Group Title"]}</div>
+          <div class="lang"><strong>English:</strong> ${t["English Response"]}</div>
+          <div class="lang"><strong>Arabic:</strong> ${t["Arabic Response"]}</div>
+        `;
+        resultsContainer.appendChild(div);
       });
     }
 
-    function showResponse(index) {
-      const { query, en, ar } = filtered[index];
-      const responseArea = document.getElementById('responseArea');
-      document.querySelectorAll('.query-list li').forEach((el, idx) => {
-        el.classList.toggle('active', idx === index);
+    async function loadTemplates() {
+      const url = "https://a9991.github.io/canned/NowNow_Canned_Responses_Grouped.csv"; // hosted CSV
+      const response = await fetch(url);
+      const csvText = await response.text();
+      const parsed = Papa.parse(csvText, { header: true });
+      templates = parsed.data.filter(row => row["English Response"]);
+
+      fuse = new Fuse(templates, {
+        keys: ["Group Title", "English Response", "Arabic Response", "Assigned Group"],
+        threshold: 0.3
       });
-      responseArea.innerHTML = `
-        <h2>${query}</h2>
-        <div class="lang-title">🇬🇧 English:</div>
-        <div class="response">${en}</div>
-        <button class="copy-btn" onclick="navigator.clipboard.writeText(\`${en}\`)">Copy</button>
-        <div class="lang-title">🇸🇦 Arabic:</div>
-        <div class="response">${ar}</div>
-        <button class="copy-btn" onclick="navigator.clipboard.writeText(\`${ar}\`)">Copy</button>
-      `;
     }
 
-    document.getElementById('searchInput').addEventListener('input', e => {
-      const query = e.target.value.trim();
-      const result = query ? fuse.search(query, { limit: 100 }).map(r => r.item) : responses;
-      filtered = result;
-      renderQueryList(filtered);
-    });
-
-    Papa.parse(SHEET_URL, {
-      download: true,
-      header: true,
-      complete: function(results) {
-        responses = results.data.map(row => ({
-          query: row["Query Type"] || row["Query type"] || row["query type"] || "",
-          en: row["English"] || row["english"] || "",
-          ar: row["Arabic"] || row["arabic"] || ""
-        })).filter(r => r.en || r.ar);
-        filtered = responses;
-        fuse = new Fuse(responses, {
-          keys: ['query', 'en', 'ar'],
-          threshold: 0.4
-        });
-        renderQueryList(responses);
-      }
-    });
+    loadTemplates();
   </script>
 </body>
 </html>
