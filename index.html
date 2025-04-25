@@ -97,7 +97,7 @@
     let responses = [];
 
     async function loadData() {
-      const res = await fetch('https://a9991.github.io/canned/canned_responses_with_fake_real_embeddings.json');
+      const res = await fetch("https://a9991.github.io/canned/canned_responses_cleaned.json");
       responses = await res.json();
     }
 
