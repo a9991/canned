@@ -33,20 +33,27 @@
             Papa.parse(csv, {
               header: true,
               skipEmptyLines: true,
-              transformHeader: header => header.trim().replace(/^"|"$/g, ''),
+              transformHeader: header => {
+                const cleanedHeader = header.trim().replace(/^"|"$/g, '');
+                console.log("Raw Header:", header, "Cleaned Header:", cleanedHeader); // Debug headers
+                return cleanedHeader;
+              },
               transform: (value, header) => value.trim().replace(/^"|"$/g, ''),
               complete: (results) => {
+                console.log("CSV Headers:", Object.keys(results.data[0] || {})); // Log all headers
                 const cleanedData = results.data.map(row => ({
                   groupTitle: row["Group Title"] || "",
                   englishResponse: row["English Response"] || "",
                   arabicResponse: row["Arabic Response"] || "",
                   assignedGroup: row["Assigned Group"] || ""
                 }));
+                console.log("Parsed CSV Data:", cleanedData); // Debug parsed data
                 setData(cleanedData);
                 setFilteredData(cleanedData);
 
                 // Extract unique groups for the filter
-                const uniqueGroups = [...new Set(cleanedData.map(item => item.assignedGroup))].filter(Boolean);
+                const uniqueGroups = [...new Set(cleanedData.map(item => item.assignedGroup.trim()))].filter(group => group !== "");
+                console.log("Unique Groups:", uniqueGroups); // Debug unique groups
                 setGroups(uniqueGroups);
               },
               error: (err) => console.error("Error parsing CSV:", err)
@@ -113,6 +120,34 @@
           <div className="flex flex-1">
             {/* Sidebar */}
             <div className="w-64 bg-blue-50 dark:bg-gray-800 text-black dark:text-gray-100 p-4 flex flex-col">
+              {/* Language and Dark Mode Toggles */}
+              <div className="flex justify-between mb-4">
+                <button
+                  onClick={() => handleLanguageToggle('English')}
+                  className={`p-2 rounded w-[48%] ${language === 'English' ? 'bg-blue-500' : 'bg-yellow-500'} text-black dark:text-gray-100`}
+                >
+                  English
+                </button>
+                <button
+                  onClick={() => handleLanguageToggle('Arabic')}
+                  className={`p-2 rounded w-[48%] ${language === 'Arabic' ? 'bg-blue-500' : 'bg-yellow-500'} text-black dark:text-gray-100`}
+                >
+                  Arabic
+                </button>
+              </div>
+              <div className="flex justify-center mb-4">
+                <label className="inline-flex items-center cursor-pointer">
+                  <input
+                    type="checkbox"
+                    checked={isDarkMode}
+                    onChange={() => setIsDarkMode(!isDarkMode)}
+                    className="sr-only peer"
+                  />
+                  <div className="relative w-11 h-6 bg-gray-300 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-500"></div>
+                </label>
+              </div>
+
+              {/* Group Filter */}
               <h2 className="text-xl font-bold mb-4">Filters</h2>
               <div className="mb-4">
                 <label className="block text-sm font-medium mb-1">Group</label>
@@ -126,30 +161,6 @@
                     <option key={group} value={group}>{group}</option>
                   ))}
                 </select>
-              </div>
-              <div className="mt-auto">
-                <div className="flex justify-center mb-4">
-                  <button
-                    onClick={() => setIsDarkMode(!isDarkMode)}
-                    className="p-2 rounded-full bg-gray-300 dark:bg-gray-600 text-black dark:text-gray-100"
-                  >
-                    {isDarkMode ? '☀️' : '🌙'}
-                  </button>
-                </div>
-                <div className="flex justify-between">
-                  <button
-                    onClick={() => handleLanguageToggle('English')}
-                    className={`p-2 rounded w-[48%] ${language === 'English' ? 'bg-blue-500' : 'bg-yellow-500'} text-black dark:text-gray-100`}
-                  >
-                    English
-                  </button>
-                  <button
-                    onClick={() => handleLanguageToggle('Arabic')}
-                    className={`p-2 rounded w-[48%] ${language === 'Arabic' ? 'bg-blue-500' : 'bg-yellow-500'} text-black dark:text-gray-100`}
-                  >
-                    Arabic
-                  </button>
-                </div>
               </div>
             </div>
 
