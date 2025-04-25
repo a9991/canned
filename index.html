@@ -3,142 +3,194 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NowNow Smart Semantic Canned Responses</title>
-  <meta name="robots" content="noindex">
-  <script type="module">
-    import { pipeline } from 'https://cdn.jsdelivr.net/npm/@xenova/transformers@2.10.0';
-    window.modelReady = false;
-    window.embedder = await pipeline('feature-extraction', 'Xenova/all-MiniLM-L6-v2');
-    window.modelReady = true;
-    document.getElementById('status').innerText = '✅ Model ready. Enter your query.';
-    document.getElementById('query').disabled = false;
-    document.getElementById('findBtn').disabled = false;
-  </script>
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      background: #fff9f3;
-      margin: 0;
-      padding: 20px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-    h1 {
-      font-size: 22px;
-      margin-bottom: 10px;
-    }
-    #status {
-      font-size: 14px;
-      margin-bottom: 15px;
-      color: #555;
-    }
-    textarea {
-      width: 100%;
-      max-width: 600px;
-      height: 80px;
-      padding: 12px;
-      font-size: 15px;
-      border-radius: 8px;
-      border: 1px solid #ccc;
-      margin-bottom: 20px;
-    }
-    button {
-      padding: 10px 20px;
-      background: #ffa000;
-      color: white;
-      border: none;
-      border-radius: 6px;
-      cursor: pointer;
-      font-weight: bold;
-    }
-    button:disabled {
-      background: #ccc;
-      cursor: not-allowed;
-    }
-    .results {
-      max-width: 800px;
-      width: 100%;
-      margin-top: 30px;
-    }
-    .card {
-      background: white;
-      padding: 16px;
-      margin-bottom: 12px;
-      border-radius: 12px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.06);
-    }
-    .card h4 {
-      margin: 0 0 10px;
-      color: #333;
-    }
-    .card p {
-      margin: 6px 0;
-    }
-    .copy-btn {
-      margin-top: 8px;
-      padding: 6px 10px;
-      background: #ffc107;
-      color: #000;
-      border: none;
-      border-radius: 8px;
-      cursor: pointer;
-    }
-  </style>
+  <title>NowNow Canned Responses</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
+  <script src="https://unpkg.com/papaparse@latest/papaparse.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.2/babel.min.js"></script>
 </head>
-<body>
-  <h1>🔍 Smart Semantic Canned Response Finder</h1>
-  <div id="status">⏳ Loading model, please wait...</div>
-  <textarea id="query" placeholder="Type full customer context here..." disabled></textarea>
-  <button id="findBtn" onclick="findBest()" disabled>Find Response</button>
-  <div class="results" id="results"></div>
+<body class="bg-white dark:bg-gray-900 text-black dark:text-gray-100 transition-colors duration-300">
+  <div id="root"></div>
 
-  <script>
-    let responses = [];
+  <script type="text/babel">
+    const { useState, useEffect } = React;
 
-    async function loadData() {
-      const res = await fetch("https://a9991.github.io/canned/canned_responses_cleaned.json");
-      responses = await res.json();
-    }
+    const App = () => {
+      const [data, setData] = useState([]);
+      const [filteredData, setFilteredData] = useState([]);
+      const [searchTerm, setSearchTerm] = useState('');
+      const [selectedGroup, setSelectedGroup] = useState('');
+      const [groups, setGroups] = useState([]);
+      const [language, setLanguage] = useState(localStorage.getItem('language') || 'English');
+      const [isDarkMode, setIsDarkMode] = useState(localStorage.getItem('darkMode') === 'true');
 
-    function cosineSimilarity(a, b) {
-      let dot = 0, normA = 0, normB = 0;
-      for (let i = 0; i < a.length; i++) {
-        dot += a[i] * b[i];
-        normA += a[i] * a[i];
-        normB += b[i] * b[i];
-      }
-      return dot / (Math.sqrt(normA) * Math.sqrt(normB));
-    }
+      // Fetch and parse CSV data
+      useEffect(() => {
+        fetch('NowNow_Canned_Responses_Grouped.csv')
+          .then(response => response.text())
+          .then(csv => {
+            Papa.parse(csv, {
+              header: true,
+              skipEmptyLines: true,
+              transformHeader: header => header.trim().replace(/^"|"$/g, ''),
+              transform: (value, header) => value.trim().replace(/^"|"$/g, ''),
+              complete: (results) => {
+                const cleanedData = results.data.map(row => ({
+                  groupTitle: row["Group Title"] || "",
+                  englishResponse: row["English Response"] || "",
+                  arabicResponse: row["Arabic Response"] || "",
+                  assignedGroup: row["Assigned Group"] || ""
+                }));
+                setData(cleanedData);
+                setFilteredData(cleanedData);
 
-    async function findBest() {
-      const query = document.getElementById('query').value.trim();
-      const resultsBox = document.getElementById('results');
-      resultsBox.innerHTML = 'Processing...';
-      if (!query || !window.modelReady || responses.length === 0) {
-        resultsBox.innerHTML = '❌ Model not ready or no data.';
-        return;
-      }
+                // Extract unique groups for the filter
+                const uniqueGroups = [...new Set(cleanedData.map(item => item.assignedGroup))].filter(Boolean);
+                setGroups(uniqueGroups);
+              },
+              error: (err) => console.error("Error parsing CSV:", err)
+            });
+          })
+          .catch(err => console.error("Error fetching CSV:", err));
+      }, []);
 
-      const embedding = await window.embedder(query, { pooling: 'mean', normalize: true });
-      const userVec = embedding.data;
+      // Apply filters and search
+      useEffect(() => {
+        let filtered = data;
 
-      const top = responses.map(item => ({
-        ...item,
-        score: cosineSimilarity(userVec, item.embedding)
-      })).sort((a, b) => b.score - a.score).slice(0, 5);
+        // Filter by group
+        if (selectedGroup) {
+          filtered = filtered.filter(item => item.assignedGroup === selectedGroup);
+        }
 
-      resultsBox.innerHTML = top.map(item => `
-        <div class="card">
-          <h4>${item.title}</h4>
-          <p><strong>EN:</strong> ${item.en}</p>
-          <p><strong>AR:</strong> ${item.ar}</p>
-          <button class="copy-btn" onclick="navigator.clipboard.writeText('${item.en.replace(/'/g, "\'")}')">Copy English</button>
+        // Search across all fields based on selected language
+        if (searchTerm) {
+          filtered = filtered.filter(item => {
+            const searchLower = searchTerm.toLowerCase();
+            return (
+              item.groupTitle.toLowerCase().includes(searchLower) ||
+              (language === 'English' && item.englishResponse.toLowerCase().includes(searchLower)) ||
+              (language === 'Arabic' && item.arabicResponse.toLowerCase().includes(searchLower)) ||
+              item.assignedGroup.toLowerCase().includes(searchLower)
+            );
+          });
+        }
+
+        setFilteredData(filtered);
+      }, [selectedGroup, searchTerm, language, data]);
+
+      // Toggle dark mode
+      useEffect(() => {
+        if (isDarkMode) {
+          document.body.classList.add('dark');
+        } else {
+          document.body.classList.remove('dark');
+        }
+        localStorage.setItem('darkMode', isDarkMode);
+      }, [isDarkMode]);
+
+      // Toggle language
+      const handleLanguageToggle = (lang) => {
+        setLanguage(lang);
+        localStorage.setItem('language', lang);
+      };
+
+      // Copy text to clipboard
+      const copyToClipboard = (text) => {
+        navigator.clipboard.writeText(text).then(() => {
+          alert('Response copied to clipboard!');
+        });
+      };
+
+      return (
+        <div className="min-h-screen flex flex-col">
+          {/* Header */}
+          <div className="bg-yellow-500 p-4 flex items-center">
+            <h1 className="text-xl font-bold text-black">NowNow Canned Responses</h1>
+          </div>
+
+          <div className="flex flex-1">
+            {/* Sidebar */}
+            <div className="w-64 bg-blue-50 dark:bg-gray-800 text-black dark:text-gray-100 p-4 flex flex-col">
+              <h2 className="text-xl font-bold mb-4">Filters</h2>
+              <div className="mb-4">
+                <label className="block text-sm font-medium mb-1">Group</label>
+                <select
+                  value={selectedGroup}
+                  onChange={(e) => setSelectedGroup(e.target.value)}
+                  className="w-full p-2 rounded bg-yellow-500 text-black dark:bg-gray-600 dark:text-gray-100"
+                >
+                  <option value="">All Groups</option>
+                  {groups.map(group => (
+                    <option key={group} value={group}>{group}</option>
+                  ))}
+                </select>
+              </div>
+              <div className="mt-auto">
+                <div className="flex justify-center mb-4">
+                  <button
+                    onClick={() => setIsDarkMode(!isDarkMode)}
+                    className="p-2 rounded-full bg-gray-300 dark:bg-gray-600 text-black dark:text-gray-100"
+                  >
+                    {isDarkMode ? '☀️' : '🌙'}
+                  </button>
+                </div>
+                <div className="flex justify-between">
+                  <button
+                    onClick={() => handleLanguageToggle('English')}
+                    className={`p-2 rounded w-[48%] ${language === 'English' ? 'bg-blue-500' : 'bg-yellow-500'} text-black dark:text-gray-100`}
+                  >
+                    English
+                  </button>
+                  <button
+                    onClick={() => handleLanguageToggle('Arabic')}
+                    className={`p-2 rounded w-[48%] ${language === 'Arabic' ? 'bg-blue-500' : 'bg-yellow-500'} text-black dark:text-gray-100`}
+                  >
+                    Arabic
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            {/* Main Content */}
+            <div className="flex-1 p-6">
+              <div className="mb-6">
+                <input
+                  type="text"
+                  placeholder="Search responses..."
+                  value={searchTerm}
+                  onChange={(e) => setSearchTerm(e.target.value)}
+                  className="w-full p-3 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 text-black dark:text-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                />
+              </div>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {filteredData.map((item, index) => (
+                  <div key={index} className="p-4 bg-white dark:bg-gray-800 rounded-lg shadow-md">
+                    <h3 className="text-lg font-semibold mb-2">{item.groupTitle}</h3>
+                    <p className="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                      Group: {item.assignedGroup}
+                    </p>
+                    <p className="mb-4">
+                      {language === 'English' ? item.englishResponse : item.arabicResponse}
+                    </p>
+                    <button
+                      onClick={() => copyToClipboard(language === 'English' ? item.englishResponse : item.arabicResponse)}
+                      className="w-full p-2 bg-yellow-500 text-black rounded hover:bg-yellow-600 transition-colors"
+                    >
+                      Copy Response
+                    </button>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
         </div>
-      `).join('');
-    }
+      );
+    };
 
-    loadData();
+    const root = ReactDOM.createRoot(document.getElementById('root'));
+    root.render(<App />);
   </script>
 </body>
 </html>
