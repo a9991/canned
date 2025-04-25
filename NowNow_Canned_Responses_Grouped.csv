@@ -1,0 +1,1026 @@
+Group Title,English Response,Arabic Response,Assigned Group
+OPENING 1. - IF CX SHARED A QUERY/CONCERN & ORDER ID,Hala! Thank you for contacting NowNow. I'm happy to assist you.,هلا! شكرًا لتواصلك مع ناو ناو، يسعدني مساعدتك اليوم.,Closure
+OPENING 2. - IF CX DID NOT SHARE A QUERY/CONCERN & ORDER ID,Hala! Thank you for contacting NowNow. How can I assist you today?,هلا! كيف يمكنني مساعدتك اليوم؟,Closure
+Opening 3 - Customer sent just the order ID ,Hala! Thank you for contacting NowNow. Let me quickly check the order status for you.,هلا! شكرًا لتواصلك معنا، دعني أتحقق سريعًا من حالة طلبك.,Closure
+Opening 3.1 - Send this next if the order is in Delivered status,"Thanks for being on hold. As I can see the order ""XXX"" is showing delivered. Is there any issue with the order or delivered items in order?","شكرًا لانتظارك. حسب التحديثات، الطلب ""...."" تم تسليمه. هل واجهت أي مشكلة في الطلب أو العناصر المستلمة؟",Opening
+"Opening 4 - Customer Sent his concern or full details including order ID, pictures",Hala! Thank you for contacting NowNow. I'll be glad to help you out. I'm reviewing the information you provided and will be with you within 2 minutes.,هلا! شكرًا لتواصلك مع ناو ناو. أنا أراجع التفاصيل الآن وسأكون معك خلال دقيقتين.,Closure
+APOLOGY / SORRY STATEMENT (Use Wisely depending upon case to case),Please accept my heartfelt apologies for the problem you have faced this time. I will do my best to help you out.,أعتذر لك عن أي إزعاج. سأبذل قصارى جهدي لحل المشكلة لك.,Apology
+APOLOGY / SORRY STATEMENT (Use Wisely depending upon case to case),I’m sorry for the inconvenience caused to you. I will surely assist you in this regard and provide the best possible resolution.,أقدر استيائك، وأعتذر عن أي إزعاج. سأساعدك في إيجاد أفضل حل ممكن.,Apology
+APOLOGY / SORRY STATEMENT (Use Wisely depending upon case to case),I regret to hear that you’ve faced trouble. I’m sorry for the inconvenience this may have caused you. I will certainly do my best to help you out.,نأسف لسماع أنك واجهت مشكلة. أعتذر عن أي إزعاج، وسأبذل جهدي لحل الأمر سريعًا.,Apology
+APOLOGY / SORRY STATEMENT (Use Wisely depending upon case to case),I’m sorry for the inconvenience caused to you. Please be assured that this is not the level of service we strive to offer to valued customers like you.,أعتذر لك عن التجربة غير المرضية. نحرص دائمًا على تقديم أفضل خدمة لعملائنا، وسأعمل على مساعدتك بأسرع وقت.,Apology
+APOLOGY / SORRY STATEMENT (Use Wisely depending upon case to case),"I appreciate your understanding as we strive to improve your experience. Unfortunately, there are times when unavoidable circumstances arise, and we may fall short. I hope you’ll give us another chance to rectify our mistake and provide you with the service you deserve.",أقدّر تفهمك، ونتمنى أن تمنحنا فرصة أخرى لتقديم الخدمة التي تستحقها. أحيانًا قد تحدث ظروف خارجة عن إرادتنا، لكننا نسعى دائمًا لتحسين تجربتك.,Apology
+"HOLD EXTENSION
+
+HOLD & UNHOLD",Please bear with me for 2 minutes while I look into this for you and provide assistance.,أرجو منك الانتظار لدقيقتين بينما أبحث في الأمر وأقدم لك المساعدة.,Hold / Unhold
+"HOLD EXTENSION
+
+HOLD & UNHOLD",Could you please bear with me for a minute or two while I check the information for you?,هل يمكنك الانتظار لدقيقة أو اثنتين بينما أتحقق من المعلومات من أجلك؟,Hold / Unhold
+"HOLD EXTENSION
+
+HOLD & UNHOLD",I appreciate your patience as checking the information is taking longer than expected. Please bear with me for another 2 minutes. Thank you for your understanding.,أقدر صبرك، حيث يستغرق التحقق من المعلومات وقتًا أطول من المتوقع. أرجو منك الانتظار لدقيقتين إضافيتين، وشكرًا لتفهمك.,Closure
+"HOLD EXTENSION
+
+HOLD & UNHOLD","Thank you for your patience. I apologize for the delay, and I appreciate your understanding. Please allow me another 2 minutes to resolve this for you.",شكرًا لصبرك. أعتذر عن التأخير وأقدر تفهمك. أرجو أن تسمح لي بدقيقتين إضافيتين لحل هذا الأمر لك.,Closure
+"HOLD EXTENSION
+
+HOLD & UNHOLD",Please bear with me for two minutes while I review the details of your order.,أرجو منك الانتظار لدقيقتين بينما أراجع تفاصيل طلبك.,Hold / Unhold
+"HOLD EXTENSION
+
+HOLD & UNHOLD",Thank you for being patient.,شكرًا لصبرك.,Closure
+"HOLD EXTENSION
+
+HOLD & UNHOLD",Thanks for waiting.,شكرًا لانتظارك.,Hold / Unhold
+FURTHER ASSISTANCE,I hope I've answered all your questions today! Is there anything else I can help you with?,أتمنى أن أكون قد أجبت على جميع استفساراتك اليوم! هل هناك أي شيء آخر يمكنني مساعدتك به؟,Closure
+FURTHER ASSISTANCE,Anything else that you would like us to help you with?,هل هناك أي شيء آخر يمكننا مساعدتك به؟,Closure
+FURTHER ASSISTANCE,"Apart from this, anything else I can assist you with?",بجانب ذلك، هل هناك أي شيء آخر يمكنني مساعدتك به؟,Closure
+FURTHER ASSISTANCE,Is there anything else I can assist you with?,هل هناك أي شيء آخر يمكنني مساعدتك به؟,Closure
+"RATE THE CHAT (CSAT)
+
+USE ONLY WHEN CX IS HAPPY AND SATISFIED WITH YOUR ASSISTANCE ","Also, after the chat ends, a quick survey will pop up. If you’re happy with the support, I’d really appreciate it if you could rate the chat as ‘Good.’ Your feedback helps me improve!","أيضًا، بعد انتهاء المحادثة، سيظهر لك استبيان سريع. إذا كنت راضيًا عن الدعم، سأكون ممتنًا إذا قمت بتقييم المحادثة بـ ""جيد"". ملاحظاتك تساعدني على التحسن!",Follow-Up
+1st Nudge - Send after 2 minutes if the Cx has not responded,It's been a little while since we heard from you. Would you like to continue our conversation?,لقد مر بعض الوقت منذ آخر تواصل بيننا، هل تود متابعة المحادثة؟,Follow-Up
+"Nudge response 2 
+This response is typically sent on chat where either the agent has sent first nudge response to CX and cx came back again. So if cx goes idle again, new response to be sent. ",We haven’t heard from you in a while. Would you like to continue the chat,لم نسمع منك منذ فترة، هل ترغب في متابعة المحادثة؟,Follow-Up
+"Nudge Closure - Send at 1 minute after the first nudge if, the customer still hasn't responded, then close the chat.","We will end this chat as we did not hear from you for a while. If you need any help do not hesitate to contact us. Thank you for choosing NowNow, have a good day!",سنقوم بإنهاء هذه المحادثة لعدم استلام أي رد منك لفترة. إذا كنت بحاجة إلى أي مساعدة، لا تتردد في التواصل معنا. شكرًا لاختيارك ناو ناو، ونتمنى لك يومًا سعيدًا!,Closure
+CLOSING STATEMENT,"You're always welcome. Thank you for choosing NowNow, have a good day!",دائمًا مرحبًا بك! شكرًا لاختيارك ناو ناو، ونتمنى لك يومًا سعيدًا!,Closure
+the customer is asking about new symbols of AED & SAR ,"We've recently updated the currency symbols for AED and SAR on our platform, in line with the official symbols introduced by the UAE and Saudi governments.
+
+These changes are meant to provide a more accurate and up-to-date representation of each currency.","قمنا مؤخرًا بتحديث رموز العملات لـ AED و SAR على منصتنا، بما يتماشى مع الرموز الرسمية التي تم اعتمادها من قبل حكومتي الإمارات والسعودية.
+تهدف هذه التغييرات إلى تقديم تمثيل أدق وأحدث لكل عملة.",Follow-Up
+ORDER PLACED WITHIN 10 MINS,"Your order has been successfully placed, and the store will be processing it as quickly as possible.",تم تقديم طلبك بنجاح، وسيقوم المتجر بمعالجته في أسرع وقت ممكن.,Order Just Placed
+ORDER PLACED WITHIN 10 MINS,"It is expected to be delivered within ** minutes from the time of order placement. You can also track the live movement of the delivery associate in the app by clicking on ""Track Order.""","من المتوقع أن يتم تسليمه خلال ** دقيقة من وقت تقديم الطلب. يمكنك أيضًا تتبع حركة مندوب التوصيل مباشرة من خلال التطبيق عبر النقر على ""تتبع الطلب"".",Order Just Placed
+"PLACED NOT ACCEPTED (AFTER 10 MINS)
+
+IF, EDT Has Passed Already, Avoid Sharing Delivery & Processing times","Yes, your order has been successfully placed. It is now being processed by the store and will be delivered to your address as soon as it’s shipped.",نعم، تم تقديم طلبك بنجاح ويجري معالجته حاليًا من قبل المتجر. سيتم توصيله إلى عنوانك بمجرد شحنه.,Order Processing Delay
+"PLACED NOT ACCEPTED (AFTER 10 MINS)
+
+IF, EDT Has Passed Already, Avoid Sharing Delivery & Processing times","I see a delay in the store accepting your order, and I’m really sorry about that. I’m escalating this to the Order Management Team to speed up the process, and it should be resolved within a few minutes.
+
+Your order's expected delivery time is ** minutes, including ** minutes for store processing and ** minutes for delivery post the order is shipped.
+
+Meanwhile, you can track the live movement of the delivery associate in the app by clicking on ""Track Order.""","أرى أن هناك تأخيرًا في قبول المتجر لطلبك، وأعتذر بشدة عن ذلك. لقد قمت بتصعيد الأمر إلى فريق إدارة الطلبات لتسريع العملية، ومن المتوقع حله خلال بضع دقائق. الوقت المتوقع لتسليم طلبك هو ** دقيقة، ويشمل ** دقيقة لمعالجة الطلب في المتجر و ** دقيقة للتوصيل بعد شحن الطلب.
+ في هذه الأثناء، يمكنك تتبع حركة مندوب التوصيل مباشرة من داخل التطبيق عبر النقر على ""تتبع الطلب"".",Follow-Up
+ACCEPTED (WITHIN EDT),"I’ve checked, and your order has been successfully accepted. The store is now processing it, and once it’s shipped, it will be delivered to your address as soon as possible.
+
+Please also note that the delivery is expected within ** minutes from the time the order was placed. You can track the live location of the delivery associate in the app by clicking on “Track Order.”","""لقد تحققت، وتم قبول طلبك بنجاح. المتجر يقوم الآن بمعالجته، وبمجرد شحنه، سيتم توصيله إلى عنوانك في أقرب وقت ممكن.
+يرجى ملاحظة أن التوصيل متوقع خلال ** دقيقة من وقت تقديم الطلب. يمكنك تتبع الموقع المباشر لمندوب التوصيل داخل التطبيق عن طريق النقر على """"تتبع الطلب.""""""",Order Processing Delay
+"ACCEPTED NOT PROCESSED (AFTER 12 / 20 MINS)
+
+IF, EDT has Passed Already, Avoid Sharing Delivery and Processing times","I've checked, and your order has been successfully accepted. The store is processing it, and once shipped, it will be delivered to your address as soon as possible.","لقد تحققت، وتم قبول طلبك بنجاح. يقوم المتجر الآن بمعالجته، وبمجرد شحنه، سيتم توصيله إلى عنوانك في أسرع وقت ممكن.
+",Order Processing Delay
+"ACCEPTED NOT PROCESSED (AFTER 12 / 20 MINS)
+
+IF, EDT has Passed Already, Avoid Sharing Delivery and Processing times","However, I see a delay in processing your order. I’m sorry about that. I’ve forwarded this to the Order Management Team, and they’ll expedite it.","ومع ذلك، أرى تأخيرًا في معالجة طلبك، وأعتذر عن ذلك. لقد قمت برفع الأمر إلى فريق إدارة الطلبات، وسيعملون على تسريعه.
+",Order Processing Delay
+"ACCEPTED NOT PROCESSED (AFTER 12 / 20 MINS)
+
+IF, EDT has Passed Already, Avoid Sharing Delivery and Processing times","Rest assured, the issue will be resolved as soon as possible. You can also track the live movement of the delivery associate in the app by clicking on ""Track Order.""","لا داعي للقلق، سيتم حل المشكلة في أقرب وقت ممكن. يمكنك أيضًا تتبع الحركة المباشرة لمندوب التوصيل في التطبيق من خلال النقر على ""تتبع الطلب"".
+",Order Processing Delay
+READY TO PACK (WITHIN EDT),"Your order is currently being processed and will be shipped soon. It is expected to be delivered within ** minutes from the time you placed the order.
+
+You can also track the live movement of the delivery associate in the app by clicking on ""Track Order.""","طلبك قيد المعالجة حاليًا وسيتم شحنه قريبًا. من المتوقع توصيله خلال ** دقيقة من وقت تقديم الطلب.
+يمكنك أيضًا تتبع الموقع المباشر لمندوب التوصيل داخل التطبيق عن طريق النقر على """"تتبع الطلب.""""""
+",Order Processing Delay
+READY TO PACK (AFTER 15 / 30 MINUTES) PROCESSING NOT SHIPPED COMPLAINT WILL BE RAISED,I’m really sorry for the inconvenience. Your order is currently being processed.,"أعتذر عن أي إزعاج. طلبك قيد المعالجة حاليًا.
+",Order Processing Delay
+READY TO PACK (AFTER 15 / 30 MINUTES) PROCESSING NOT SHIPPED COMPLAINT WILL BE RAISED,"The expected delivery time for your order was ** minutes, with the store taking ** minutes to process it and the remaining ** minutes for delivery.
+
+I’m really sorry for the delay. I’ve escalated this to the appropriate team to speed things up, and they’ll update you as soon as possible. Your order will be delivered shortly.","كان من المتوقع توصيل طلبك خلال ** دقيقة، حيث استغرقت المتجر ** دقيقة لمعالجته، بينما تستغرق عملية التوصيل ** دقيقة.
+أنا أعتذر عن التأخير. لقد قمت بتصعيد الأمر إلى الفريق المختص لتسريع العملية، وسيتم تزويدك بتحديث في أقرب وقت ممكن. سيتم توصيل طلبك قريبًا.",Follow-Up
+"DELAY IN SHIPPING -  DELIVERY TYPE - SELF DELIVERY
+
+ALSO, LIVE TRACKING WILL NOT BE AVAILABLE","I truly apologize for the inconvenience that might have caused you. I've escalated this issue to the concerned team to speed up the shipment process. Rest assured, we will use best possible resources to resolve it as faster as we can.",أعتذر عن أي إزعاج قد يكون سببه ذلك. لقد قمت بتصعيد المشكلة إلى الفريق المختص لتسريع عملية الشحن. كن مطمئنًا، سنبذل قصارى جهدنا ونستخدم أفضل الموارد الممكنة لحلها بأسرع وقت ممكن.,Follow-Up
+"DELAY IN SHIPPING -  DELIVERY TYPE - SELF DELIVERY
+
+ALSO, LIVE TRACKING WILL NOT BE AVAILABLE",Please note that real-time tracking in the app is not available when the order is delivered by the store’s own rider. Your cooperation on this is highly appreciated.,"يرجى ملاحظة أن التتبع المباشر في التطبيق غير متاح عندما يتم التوصيل من خلال مندوب المتجر نفسه. نقدر تعاونك وتفهمك.
+",Special Scenarios
+"Order Shipped  - Within ETD 
+
+REMOVE "" Delivery Associate's & Real-Time Tracking Info "" If, being delivered by ""SELF DELIVERY"" 
+
+If, being delivered by ""NOWNOW"", Share the info As it is...
+","I’ve checked your order, and I’m happy to confirm that it has been shipped. You can expect delivery within ** minutes from the time the order was placed.
+
+Usually, it takes ** minutes for the store to process the order before shipping, and once shipped, the rider will do their best to deliver it to you within ** minutes.","لقد قمت بالتحقق من طلبك، ويسعدني أن أؤكد أنه قد تم شحنه. يمكنك توقع استلامه خلال ** دقيقة من وقت تقديم الطلب.
+عادةً، يستغرق المتجر ** دقيقة لمعالجة الطلب قبل الشحن، وبمجرد شحنه، سيبذل السائق قصارى جهده لتوصيله إليك خلال ** دقيقة.",Special Scenarios
+"Order Shipped  - Within ETD 
+
+REMOVE "" Delivery Associate's & Real-Time Tracking Info "" If, being delivered by ""SELF DELIVERY"" 
+
+If, being delivered by ""NOWNOW"", Share the info As it is...
+","For your convenience, you’ll receive a notification in the app with the delivery associate’s contact details.
+
+You can also track their real-time location by tapping “Track Order” in the app, giving you full visibility and the option to coordinate directly if needed.","لراحتك، ستتلقى إشعارًا في التطبيق يحتوي على تفاصيل الاتصال الخاصة بمندوب التوصيل.
+يمكنك أيضًا تتبع موقعه المباشر من خلال النقر على 'تتبع الطلب' في التطبيق، مما يمنحك رؤية كاملة وخيار التنسيق المباشر عند الحاجة.",Self-Service Guide
+"Order Shipped  - Within ETD 
+
+REMOVE "" Delivery Associate's & Real-Time Tracking Info "" If, being delivered by ""SELF DELIVERY"" 
+
+If, being delivered by ""NOWNOW"", Share the info As it is...
+",I hope this helps! Let me know if there’s anything else I can assist you with.,"آمل أن يكون هذا مفيدًا! أخبرني إذا كان هناك أي شيء آخر يمكنني مساعدتك به.
+",Closure
+SHIPPED NOT DELIVERED - DELIVERY TYPE - NOWNOW ,"I’ve checked your order 'XXXX' and can confirm that it has been shipped. However, there’s a slight delay in the final delivery.
+
+I’m really sorry for the inconvenience this has caused. I’ve escalated this to the concerned team, and you’ll receive an update via email within the next 5–10 minutes.
+
+In the meantime, you can check the latest status of your order by going to the ‘Orders’ tab in the app.","لقد تحققت من طلبك '.....' ويمكنني تأكيد أنه قد تم شحنه. ومع ذلك، هناك تأخير بسيط في التوصيل النهائي.
+أنا آسف جدًا على الإزعاج الذي سببه لك ذلك. لقد قمت بتصعيد الأمر إلى الفريق المختص، وستتلقى تحديثًا عبر البريد الإلكتروني خلال 5-10 دقائق القادمة.
+في هذه الأثناء، يمكنك التحقق من أحدث حالة لطلبك من خلال الانتقال إلى علامة التبويب 'الطلبات' في التطبيق.",Order Processing Delay
+INCORRECT STATUS UPDATE BY DELIVERY AGENT (DA) - UAE,Could you please check your doorstep for any NowNow shipment or ask your family members or maid if they’ve received it?,"يرجى التحقق من باب منزلك لأي شحنة من ناو ناو، أو الاستفسار من أفراد عائلتك أو المساعدة المنزلية لمعرفة ما إذا كانوا قد استلموها.
+",Special Scenarios
+INCORRECT STATUS UPDATE BY DELIVERY AGENT (DA) - UAE,"I've escalated this issue to the relevant support team for necessary action. They will get back to you via email within 30-60 minutes, and the complete resolution may take up to 1-2 hours. Let me know if you need any further assistance!","لقد قمت بتصعيد هذه المشكلة إلى فريق الدعم المختص لاتخاذ الإجراءات اللازمة. سيتواصلون معك عبر البريد الإلكتروني خلال 30 إلى 60 دقيقة، وقد يستغرق الحل الكامل من ساعة إلى ساعتين.
+إذا كنت بحاجة إلى أي مساعدة إضافية، لا تتردد في إخباري!",Follow-Up
+INCORRECT STATUS UPDATED BY DELIVERY AGENT (DA) - KSA,"Please check your doorstep for any NowNow delivery, and kindly check with your family members or household staff in case they’ve received it for you.","يرجى التحقق من باب منزلك لمعرفة ما إذا تم تسليم طلبك من ناو ناو، كما يُرجى الاستفسار من أفراد أسرتك أو العاملين في المنزل في حال استلموه بالنيابة عنك.
+",Special Scenarios
+INCORRECT STATUS UPDATED BY DELIVERY AGENT (DA) - KSA,"I’ve escalated this issue to our Fleet team for further action. They will reach out to you via email within 30-60 minutes with the latest update, and the complete resolution may take up to 1 to 2 hours.",لقد قمت بتصعيد هذه المشكلة إلى فريق التوصيل لاتخاذ الإجراءات اللازمة. سيتواصلون معك عبر البريد الإلكتروني خلال 30 إلى 60 دقيقة لتزويدك بآخر التحديثات، وقد يستغرق الحل الكامل ما بين ساعة إلى ساعتين.,Follow-Up
+OUT OF STOCK & NO REPLACEMENT WAS AVAILABLE,"I'm really sorry that the item '****'** was canceled due to being out of stock, and no replacement was available.
+
+If an alternative was available, the store would have offered a replacement. Please note that we only charge for items that are shipped and delivered. For out-of-stock items, no charges are applied to your card or wallet.
+
+Regarding refunds for canceled items, our payment process authorizes the amount at the time of order placement but only captures the payment after the approval stage. Let me know if you need any further assistance!","أنا آسف جدًا لأن المنتج '****'** قد تم إلغاؤه بسبب نفاده من المخزون، ولم يكن هناك بديل متاح.
+إذا كان هناك بديل متوفر، لكان المتجر قد عرض عليك استبداله. يرجى ملاحظة أننا نفرض رسومًا فقط على المنتجات التي يتم شحنها وتسليمها. بالنسبة للعناصر غير المتوفرة، لن يتم خصم أي مبلغ من بطاقتك أو محفظتك.
+فيما يتعلق باسترداد المبلغ للعناصر الملغاة، فإن عملية الدفع لدينا تقوم فك الحظر المبلغ عند تقديم الطلب ولكن لا يتم خصمه فعليًا إلا بعد مرحلة الموافقة.
+أخبرني إذا كنت بحاجة إلى أي مساعدة أخرى!",Refund / Credit
+ORDER ON HOLD - STORE HAS OFFERED A REPLACEMENT,"I've checked your order details, and the store has offered a replacement for some items that are out of stock.
+
+You can review this in the app by going to the Orders section:
+
+- Click on Order Details
+- On the next screen, select Review Changes in Your Order
+- You'll see all items listed, and at the bottom right, you’ll find options to Accept or Cancel the replacement.
+
+This option will be disabled after 10 minutes if no action is taken, and the item will be canceled as out of stock.
+
+Please note that replacements can only be accepted or rejected from your end. Let me know if you need any help!","لقد راجعت تفاصيل طلبك، وقد قام المتجر بعرض استبدال لبعض العناصر غير المتوفرة في المخزون.
+
+يمكنك مراجعة ذلك في التطبيق من خلال قسم الطلبات:
+
+اضغط على تفاصيل الطلب
+في الشاشة التالية، اختر مراجعة التعديلات على طلبك
+ستظهر لك جميع العناصر، وفي أسفل اليمين ستجد خيارين: قبول أو إلغاء الاستبدال
+يرجى ملاحظة أن هذا الخيار سيكون متاحًا لمدة 10 دقائق فقط، وبعد ذلك سيتم إلغاء العنصر باعتباره غير متوفر.
+
+يمكن قبول أو رفض الاستبدال من جانبك فقط. أخبرني إذا كنت بحاجة إلى أي مساعدة!",Cancellation
+OUT OF STOCK AND REPLACEMENT WAS OFFERED BUT NO ACTION,"I sincerely apologize for the inconvenience. Unfortunately, the item '****'** was out of stock, and we had to cancel it. A replacement was offered, but since we didn’t receive a response within the 10-minute timeframe, we had to proceed with the cancellation.
+
+Please note that no charges were applied for the canceled item, as we only charge after the approval stage for items that are shipped and delivered. I appreciate your understanding!","أعتذر عن الإزعاج. للأسف، كان العنصر '____' غير متوفر في المخزون، واضطررنا إلى إلغائه. تم عرض استبدال، ولكن نظرًا لعدم تلقي أي رد خلال المهلة الزمنية البالغة 10 دقائق، اضطررنا إلى المضي قدمًا في الإلغاء.
+يرجى ملاحظة أنه لم يتم فرض أي رسوم على العنصر الملغى، حيث نقوم فقط بخصم المبلغ بعد مرحلة الموافقة للعناصر التي يتم شحنها وتسليمها.
+أقدّر تفهمك!",Cancellation
+OUT OF STOCK - Replacement offered to CX but CX rejected the replacement within timeframe.,"As checked in your order details, some of the items were unfortunately out of stock at the store.
+
+To proceed, the store suggested the most suitable replacements for your review. Since the replacements didn’t meet your requirements, you chose to cancel those items. 
+
+If you’d still like to receive the canceled item(s), feel free to place a new order from another store and let us know—we’ll take it forward with the concerned team and do our best to fulfill your order.","حسب تفاصيل طلبك، تبيّن أن بعض المنتجات كانت غير متوفرة في المتجر بسبب نفاد المخزون.
+
+ولتتم متابعة الطلب، قام المتجر باقتراح بدائل مناسبة لمراجعتك. وبما أن هذه البدائل لم تكن مطابقة لمتطلباتك، قمت بإلغاء تلك العناصر.
+
+إذا كنت لا تزال بحاجة إلى المنتجات التي تم إلغاؤها، يمكنك تقديم طلب جديد من متجر آخر وإبلاغنا، وسنقوم بمتابعة الأمر مع الفريق المختص وبذل قصارى جهدنا لتلبية طلبك.",Cancellation
+ORDER REJECTED (COMPLETE ORDER CANCELED WITHOUT OOS ITEMS),"I'm really sorry to inform you that your order was canceled due to unforeseen issues at the store.
+
+You can place a new order for the needed items from other stores on our app. Please note that no charges were applied for the canceled item, as we only charge after the approval stage for items that are shipped and delivered.
+
+Let me know if I can assist you with anything else!","أنا آسف لإبلاغك بأن طلبك قد تم إلغاؤه بسبب مشاكل غير متوقعة في المتجر.
+يمكنك تقديم طلب جديد للعناصر المطلوبة من متاجر أخرى عبر تطبيقنا. يرجى ملاحظة أنه لم يتم فرض أي رسوم على العنصر الملغى، حيث نقوم فقط بخصم المبلغ بعد مرحلة الموافقة للعناصر التي يتم شحنها وتسليمها.
+أخبرني إذا كان بإمكاني مساعدتك في أي شيء آخر!",Closure
+Assurance 1. Delivery Delayed & Concern Already Escalated,"I completely understand how frustrating this delay must be for you, and I’m really sorry for the inconvenience.","أنا أتفهم تمامًا مدى إحباط هذا التأخير بالنسبة لك، وأنا أعتذر عن أي إزعاج تسبب به.
+",Complaint Status & Denial
+Assurance 1. Delivery Delayed & Concern Already Escalated,"Please be assured that we’re prioritizing your order and doing everything we can to get it to you as soon as possible. I truly appreciate your patience, and the team will do their best to deliver your shipment quickly.
+
+Your satisfaction matters to us, and I’ll make sure we set this right for you.","يرجى الاطمئنان إلى أننا نعطي أولوية لطلبك ونبذل كل ما في وسعنا لتوصيله إليك في أسرع وقت ممكن. أقدر صبرك حقًا، وسيبذل الفريق قصارى جهده لضمان وصول شحنتك سريعًا.
+رضاك يهمنا، وسأحرص على أن يتم تصحيح الأمر لك.",Complaint Status & Denial
+Assurance 2.  Delivery Delayed - Agent Highlighted To Supervisor/OMT/MS team for urgent attention,"I truly regret that we couldn’t meet your expectations this time. I understand how important this order is for you, and I really want to make things right.
+
+While I can’t undo the delay, I assure you that our team is doing everything they can to resolve this quickly. I’m confident your order will be delivered soon and the issue will be sorted as soon as possible.","أنا أأسف لعدم تمكننا من تلبية توقعاتك هذه المرة. أفهم تمامًا مدى أهمية هذا الطلب لك، وأرغب حقًا في تصحيح الأمر.
+ أؤكد لك أن فريقنا يبذل كل ما في وسعه لحل المشكلة سريعًا. أنا واثق من أن طلبك سيتم توصيله قريبًا، وسيتم حل الأمر في أقرب وقت ممكن.",Complaint - New/Highlight
+Assurance 3. -  We take it as Feedback and hope to serve you better in the future,"I assure you we take this seriously and are already working on improving our processes to prevent such issues in the future.
+
+I’ll also share your feedback with the team to help us do better. Your experience matters, and I truly appreciate the chance to make this right.","أؤكد لك أننا نأخذ هذا الأمر بجدية، ونعمل بالفعل على تحسين عملياتنا لمنع حدوث مثل هذه المشكلات في المستقبل.
+سأشارك ملاحظاتك مع الفريق لمساعدتنا على التطوير. تجربتك تهمنا حقًا، وأنا أقدر لك إتاحة الفرصة لنا لتصحيح الأمر.",Policy Clarification / Feedback
+Why is the invoice showing a less / different amount?,"Please note that the invoice does not include the delivery fee or service fee applied to your order. Also, if a discount was used, the store invoice will show item prices before the discount is applied.
+
+You can download the service fee and delivery fee invoice from the app on the Orders page.
+
+I really appreciate your understanding.","يرجى ملاحظة أن الفاتورة لا تشمل رسوم التوصيل أو رسوم الخدمة المطبقة على طلبك. أيضًا، إذا تم استخدام خصم، فستعرض فاتورة المتجر أسعار العناصر قبل تطبيق الخصم.
+يمكنك تحميل فاتورة رسوم الخدمة ورسوم التوصيل من صفحة ""الطلبات"" في التطبيق.
+أقدر تفهمك كثيرًا.",Self-Service Guide
+Why Price Increased - 1 ,"Please note that, at times, stores may update an item’s price slightly higher or lower while shipping due to stock procurement, inventory resources, and availability. However, this happens rarely.
+
+Our store partners always strive to list and sell items at the most competitive prices on the app. Let me know if you need any further assistance!","يرجى ملاحظة أنه في بعض الأحيان قد يقوم المتجر بتحديث سعر المنتج ليكون أعلى أو أقل قليلاً أثناء الشحن، وذلك بسبب عملية التوريد، توفر المخزون، وتكاليف الشراء. ومع ذلك، فإن هذا نادر الحدوث.
+يعمل شركاؤنا في المتاجر دائمًا على تقديم الأسعار الأكثر تنافسية على التطبيق. أخبرني إذا كنت بحاجة إلى أي مساعدة إضافية!",Pricing & Charges
+Why Price Increased - 2 ,"I understand your concern. The price has increased at the store due to updated supplier costs and market fluctuations. To maintain quality and service standards, this adjustment reflects current market conditions and ensures the continued availability of our products.
+
+I sincerely apologize for any inconvenience and truly appreciate your patience and understanding.","أتفهم قلقك. لقد ارتفع السعر في المتجر بسبب التحديثات في تكاليف الموردين والتغيرات في السوق. للحفاظ على معايير الجودة والخدمة، يعكس هذا التعديل ظروف السوق الحالية ويضمن استمرار توفر منتجاتنا.
+أعتذر عن أي إزعاج وأقدر صبرك وتفهمك.",Pricing & Charges
+Why Price Increased - 2 (b),"I completely understand your concern. However, price increases may occur due to recent cost adjustments from the supplier. While we do our best to provide accurate pricing in the app, occasional fluctuations can happen due to market variations.
+
+Please rest assured that we strive to maintain competitive prices while ensuring product quality. We’re always working to provide you with the best shopping experience. I truly appreciate your patience and understanding!","أتفهم تمامًا قلقك. ومع ذلك، قد تحدث زيادات في الأسعار بسبب التعديلات الأخيرة في تكاليف الموردين. نحن نبذل قصارى جهدنا لتوفير أسعار دقيقة في التطبيق، ولكن قد تحدث تقلبات أحيانًا بسبب تغيرات السوق.
+كن مطمئنًا، فنحن نحرص دائمًا على تقديم أسعار تنافسية مع ضمان جودة المنتجات. نحن نعمل باستمرار على تحسين تجربة التسوق الخاصة بك. أقدر صبرك وتفهمك!",Pricing & Charges
+UPDATE FOR INTERNAL USE,This update is for internal use & and internal understanding >> CANCEL ORDER IN ACCEPTED STAGE,This update is for internal use & and internal understanding >> CANCEL ORDER IN ACCEPTED STAGE,Cancellation
+UPDATE FOR INTERNAL USE,"Orders once placed via Noon.com App, are unable to be canceled when moved to the ""Accepted"" stage:","الطلبات التي يتم إجراؤها عبر تطبيق Noon.com لا يمكن إلغاؤها بمجرد انتقالها إلى مرحلة 'تم القبول'.
+",Cancellation
+UPDATE FOR INTERNAL USE,"Orders placed via NowNow standalone App with ""Accepted"" stage, CXs can opt for self cancellation for their order from their NowNow account",الطلبات التي يتم إجراؤها عبر تطبيق NowNow المستقل والتي تكون في مرحلة 'تم القبول'، يمكن للعملاء إلغاؤها ذاتيًا من حسابهم على NowNow.,Cancellation
+UPDATE FOR INTERNAL USE,"As it's a self-service option. Kindly click on 'Orders', then go to Track order"". You will find the option to cancel the order.","بما أن هذه ميزة ذاتية الخدمة، يُرجى النقر على 'الطلبات' ثم الانتقال إلى 'تتبع الطلب'. ستجد هناك خيار إلغاء الطلب.
+",Cancellation
+UPDATE FOR INTERNAL USE,"If the CX asks to cancel his NowNow order which S/he has placed via Noon.com app, Please deny to the CX politely, Inform that your order is in the preparing stage hence, it can not be canceled.","If the CX asks to cancel his NowNow order which S/he has placed via Noon.com app, Please deny to the CX politely, Inform that your order is in the preparing stage hence, it can not be canceled.",Cancellation
+UPDATE FOR INTERNAL USE,"Therefore, Raise ‘cancel order’ request only if a CX insists the Order for ACCEPTED staged and if it is placed on Noon APP and hence, make sure to check the Order Placed on which App before raising a ticket.","Therefore, Raise ‘cancel order’ request only if a CX insists the Order for ACCEPTED staged and if it is placed on Noon APP and hence, make sure to check the Order Placed on which App before raising a ticket.",Cancellation
+CX WANTS TO CANCEL THE ORDER IN READY TO PACK STAGE,"Inform the customer that the order is in the preparation stage and it cannot be canceled. 
+But If the customer still insists to Cancel - Update the CX about the discount part (if used any discount in order)","Inform the customer that the order is in the preparation stage and it cannot be canceled. 
+But If the customer still insists to Cancel - Update the CX about the discount part (if used any discount in order)",Cancellation
+CX WANTS TO CANCEL THE ORDER IN READY TO PACK STAGE,The cancelation request is raised and this will take 10-15 minutes for our team to review & update your cancellation request and further you may please track the order status within the App.,"تم رفع طلب الإلغاء، وسيستغرق الأمر 10-15 دقيقة حتى يقوم فريقنا بمراجعته وتحديث حالته. يمكنك متابعة حالة الطلب داخل التطبيق.
+",Cancellation
+PAYMENT ISSUES (PAYMENT PENDING) ,"As checked, there seems to be a payment issue with your order (____), which could be due to insufficient balance, an inactive card, or a restriction from your bank.
+
+You should have received a notification via SMS or the app asking you to update your payment method. Please change the payment card by selecting an already added card or adding a new one in the app to proceed with your order.
+
+Please let me know if you need any help with this!","بعد التحقق، يبدو أن هناك مشكلة في الدفع لطلبك (____)، والتي قد تكون بسبب رصيد غير كافٍ، بطاقة غير نشطة، أو قيود من البنك الخاص بك.
+من المفترض أنك تلقيت إشعارًا عبر الرسائل القصيرة أو التطبيق يطلب منك تحديث طريقة الدفع. يُرجى تغيير بطاقة الدفع عن طريق اختيار بطاقة مضافة مسبقًا أو إضافة بطاقة جديدة داخل التطبيق لإتمام الطلب.
+أخبرني إن كنت بحاجة إلى أي مساعدة في ذلك!",Payment & Wallet
+ORDER FAILED DUE TO PAYMENT ISSUE (Happens rarely),"I sincerely apologize for any inconvenience caused by the recent technical issue.It appears that the order failed due to a payment-related technical issue.
+
+However, if any amount was deducted for the unsuccessful order, rest assured that it will be automatically reversed and refunded to your original card account within 3-7 working days, in accordance with your bank's policy. ","نأسف لما حدث، يبدو أن الطلبات قد فشلت بسبب مشكلة تقنية تتعلق بالدفع. ومع ذلك، في حال تم خصم أي مبلغ للطلبات غير الناجحة، نطمئنكم بأنه سيتم استرداده تلقائيًا وإعادته إلى حساب البنكي المستحدم في الدفع خلال 3-7 أيام عمل، وذلك وفقًا لسياسة البنك الخاص بكم.
+",Refund / Credit
+"Order Failed due to a Payment Issue 
+
+( Check Your Card Details in App & Don't Try More Than 3 Times to Place order )","I had a look at your order XXXX and saw that it was canceled due to a payment failure. It looks like the issue occurred while we were trying to process the payment with your bank.
+
+Just to reassure you—no charges were applied from our end for this order.","اطلعت على طلبك رقم XXXX وتبيّن أنه تم إلغاؤه بسبب فشل في عملية الدفع. يبدو أن المشكلة حدثت أثناء محاولة معالجة الدفع مع البنك الخاص بك.
+
+فقط لأطمئنك—لم يتم خصم أي مبالغ من جانبنا لهذا الطلب.",Cancellation
+"Order Failed due to a Payment Issue 
+
+( Check Your Card Details in App & Don't Try More Than 3 Times to Place order )","Please check your card details under App > Payment Method and try placing a new order.
+If the payment still fails, avoid trying more than three times—just reach out, and I’ll help you from there.","يرجى التحقق من بيانات بطاقتك من خلال التطبيق > طريقة الدفع، ثم حاول تقديم طلب جديد.
+إذا استمرت مشكلة الدفع، يُفضل عدم المحاولة أكثر من ثلاث مرات—فقط تواصل معي وسأساعدك مباشرة.",Payment & Wallet
+ADD ITEM IN ORDER / Modify the order,"I'm really sorry, but the system doesn't allow adding items to an order once it's placed. However, you can always place a new order for the additional items. Let me know if I can assist you with anything","نود إعلامك بأن النظام لا يتيح إضافة منتجات إلى الطلب بعد تأكيده. ومع ذلك، يمكنك دائمًا تقديم طلب جديد للمنتجات الإضافية. لا تتردد في التواصل معنا إذا كنت بحاجة إلى أي مساعدة أخرى.
+",Technical Issue
+Payment Issue,I'm really sorry to inform you that your order was canceled due to a payment issue. Please try using a different payment method or card and place a new order. Let me know if you need any help!,"نأسف لإبلاغك بأن طلبك قد تم إلغاؤه بسبب مشكلة في الدفع. يُرجى المحاولة مرة أخرى باستخدام طريقة دفع أو بطاقة مختلفة وإعادة تقديم الطلب. لا تتردد في إبلاغي إذا كنت بحاجة إلى أي مساعدة!
+",Cancellation
+PAYMENT ISSUES (COMPLAINT),I have escalated this issue to our Payments Team for the necessary action. They will review it and provide a complete resolution within 2 hours.,لقد قمت بتمرير الأمر إلى فريق المدفوعات لاتخاذ الإجراءات اللازمة سيتم مراجعته وتقديم الحل خلال ساعتين.,Payment & Wallet
+NOON CREDITS REFUND TIME FRAME,Please be informed that the refund period for Noon Credits is 24-48 hours.,"يرجى العلم أن مدة استرداد المبلغ إلى رصيد noon تتراوح بين 24 إلى 48 ساعة.
+",Refund / Credit
+DEBIT/CREDIT CARD REFUND TIME FRAME (UAE),"The amount should be reflected in your source card or bank account within 3-7 working days, depending on your bank’s policy. Let me know if you need any further assistance!","يرجى العلم بأنه ستتم إعادة المبلغ إلى حسابك البنكي المستخدم في الدفع خلال 3 إلى 7 أيام عمل، وفقا لسياسة البنك الخاص بك. لا تتردد في التواصل معنا إذا كنت بحاجة إلى أي مساعدة أخرى!
+",Refund / Credit
+DEBIT/CREDIT CARD REFUND TIME FRAME (KSA),"The amount should be reflected in your source card or bank account within 3-7 working days, depending on your bank’s policy. Let me know if you need any further assistance!",سيتم عكس المبلغ في حسابك البنكي خلال 3-7 أيام عمل، وذلك وفقا لسياسة البنك الخاص بك. سعداء بمساعدتك في أي استفسار آخر!,Refund / Credit
+"SPECIAL REQUEST for Store
+
+(Use the 2nd line only if it's required)","I’ve raised your request with the team, and it should be updated within 10–15 minutes. They’ll try their best to fulfill it.","لقد قمنا برفع طلبك إلى الفريق المختص، وسيتم تحديثه خلال 10 إلى 15 دقيقة. سنبذل قصارى جهدنا لتنفيذه في أسرع وقت ممكن.
+",Special Scenarios
+"SPECIAL REQUEST for Store
+
+(Use the 2nd line only if it's required)","If the store is unable to fulfill the request, the order will continue as originally placed, and I appreciate your understanding in this regard.","يرجى العلم أنه في حال لم يتمكن المتجر من تنفيذ الطلب، فسيستمر الطلب كما تم تقديمه في الأصل نقدر تفهمك لهذا الأمر.
+",Special Scenarios
+"Guide Cx, How to ""Add a Note"" for an item to give it to the Store - Applicable on Noon App
+
+Available before the Checkout  only.
+
+","Here’s how you can add a note for the store on the Noon app:
+
+- Add the item(s) to your cart.
+
+- On the cart page, you’ll see an option to Add Note for the store (if needed).
+
+- Your request will be shared directly with the store.
+
+Please note that while we’ll pass your request along, we won’t be able to offer refunds or cancellations if the store isn’t able to fulfill it.
+
+Thanks for your understanding!","إليك خطوات بسيطة لإضافة ملاحظة إلى المتجر في تطبيق نون:
+
+أضف المنتج/المنتجات إلى سلة التسوق.
+
+في صفحة السلة، ستجد خيار إضافة ملاحظة إلى المتجر (إذا لزم الأمر).
+
+سيتم إرسال طلبك مباشرة إلى المتجر.
+
+يرجى ملاحظة أننا سنقوم بتمرير الملاحظة إلى المتجر، ولكن في حال تعذّر تنفيذ الطلب من قِبل المتجر، لن نتمكن من تقديم استرجاع أو إلغاء.
+
+شكرًا لتفهمك!",Refund / Credit
+"SPECIAL REQUEST for Store - Deny Cx as Order Already in Processing Or Shipped Stage
+
+Note: In NowNow Standalone App""Add Note"" option for store is not available","Your order is already being processed, and unfortunately, I’m unable to forward this request to the store at this stage.
+
+For future orders, for certain items, there’s an ""Add Note"" feature on the cart page—I’d recommend adding any specific instructions there before placing your order.
+
+I appreciate your patience and understanding!","موضح أمامنا أن طلبك قيد المعالجة، وللأسف، في هذه المرحلة لا يمكننا تمريره إلى المتجر
+للطلبات المستقبلية، تتوافر ميزة ""إضافة ملاحظة"" على صفحة عربة التسوق لبعض المنتجات، يمكنك إضافة أي تعليمات خاصة هناك قبل إتمام الطلب وسنعمل علي تنفيذها في طلبك.",Special Scenarios
+Special Request - Do not Ring Bell / Silent Delivery / Leave Shipment At Door / Hand Over Order to the Reception,"I'll pass this information to the team and do our best to accommodate your request, but we can't guarantee it, especially if the rider is already on the way and unreachable.
+
+For future orders, you can select your preferred delivery request (e.g., Do Not Ring Bell / Leave at Door) on the Checkout page in the app. You can also add a note for the driver there.
+
+I appreciate your understanding!","سنقوم بتمرير طلبك إلى الفريق المختص سنبذل قصارى جهدنا لتلبية طلبكم، ولكن لا يمكننا ضمان ذلك، خاصة إذا خرج مندوب لتوصيل الطلب فلا يمكن الوصول له.
+لطلباتك القادمة، يمكنك اختيار تفضيلات التوصيل الخاصة بكم (مثل عدم قرع الجرس أو ترك الطلب عند الباب) من صفحة الدفع في التطبيق، ويمكنك إضافة ملحوظة للسائق هناك.",Special Scenarios
+Special Request - Do not Ring Bell / Silent Delivery / Leave Shipment At Door / Hand Over Order to the Reception,"Furthermore, if needed, you can also contact the delivery associate through the contact details provided in the app.","بالإضافة إلى ذلك، في حال احتجت إلى ذلك، يمكنك التواصل مع مندوب التوصيل عبر تفاصيل الاتصال المتاحة في التطبيق.
+",Special Scenarios
+STEPS TO CHANGE/UPDATE ADDRESS IN APP (NOT APPLICABLE FOR EXISTING ORDER) AS ADDRESS CAN BE UPDATED BY A CX BEFORE PLACING THE ORDER ONLY,"You can follow these steps to add a new address to your NowNow account:
+
+- Log in to your NowNow account.
+- Go to My Account and select Manage Addresses.
+- Click on Add New Address.
+- Use the Search button to enter your address.
+- Make sure to select the accurate PIN on the map for correct delivery.
+- Click Confirm Location, then enter the correct address details on the next screen.
+- Click Save Address to complete the process.
+
+Please let me know if you need any further assistance","قم بتسجيل الدخول إلى حسابك في nownow.
+انتقل إلى ""حسابي"" ثم اختر ""إدارة العناوين"".
+انقر على ""إضافة عنوان جديد""، واستخدم زر البحث لإدخال عنوانك.
+حدد موقعك بدقة على الخريطة لضمان التوصيل الصحيح.
+انقر على ""تأكيد الموقع""، ثم أدخل تفاصيل العنوان، ثم اختيار ""حفظ العنوان"" لإكمال العملية.
+لا تتردد في إخبارنا إذا كنت بحاجة إلى أي مساعدة إضافية، نقدر تفهمكم!.
+
+
+
+
+",Follow-Up
+UNABLE TO SHARE THE IMAGES IN CHAT,"To upload an image in the NowNow chat:
+
+Tap the attachment or camera icon (displayed at left end bottom).
+Choose an option appeared on your screen to take ""screenshot / photo Or share file""
+Capture / Attach the image and Tap on forward Arrow button
+
+I hope this helps! Let me know if you need any further assistance with uploading image(s).","-اضغط على أيقونة المرفق أو الكاميرا (الموجودة في الزاوية اليسرى السفلية).
+
+-اختر خيارًا من الشاشة لالتقاط ""لقطة شاشة / صورة أو مشاركة ملف.
+-قم بالتقاط / إرفاق الصورة واضغط على زر السهم لإرسالها.
+
+آمل أن يكون هذا مفيدًا! لا تتردد في إخبارنا إذا كنت بحاجة إلى أي مساعدة إضافية في تحميل الصور. 
+",Technical Issue
+IF STILL CX IS UNABLE TO SHARE IMAGES - ADVISE TO EMAIL US THE IMAGES,I’m sorry to know you're yet facing difficulties in sharing the required images. You can email them to us at care@noonnownow.com. Our team will review your email and respond as quickly as possible to assist you with your concern.,"نأسف لمعرفة أنك لا تزال تواجه مشكلة في إرسال الصور. لكن لا عليك, يمكنك إرسالها لنا عبر البريد الإلكتروني على care@noonnownow.com، وسيتولى فريقنا مراجعة الأمر والرد عليك والمساعدة في أقرب وقت ممكن.
+",Technical Issue
+MISSING ITEM COMPLAINT,"Please confirm whether the missing item ""_*_**"" was invoiced, the condition of the package (intact, damaged, or tampered), and share a picture of the store receipt from the NowNow package.","يرجى تأكيد ما إذا كان المنتج المفقود ""*"" مضاف إلي الفاتورة، بالإضافة إلى حالة الطرد (سليم أو تالف)، ومشاركة صورة من إيصال المتجر المرفق مع طرد NowNow.
+",Replacements
+MISSING ITEM COMPLAINT,"I've escalated this to the relevant team, and they will get back to you via email within ** - ** minutes. The full resolution may take up to ** hours.
+
+I appreciate your patience and understanding!","لقد قمنا بتصعيد الأمر إلى الفريق المختص وسيتم التواصل معك عبر البريد الإلكتروني خلال ** - ** دقيقة. سيتم حل الأمر خلال** ساعة. نقدّر صبرك وتفهّمك!
+
+
+",Replacements
+WRONG ITEM COMPLAINT,"Please share a picture of the delivered item along with the store receipt so I can escalate this to the relevant team.
+
+Also, kindly keep the item and invoice intact for any further assistance.","يرجى مشاركة صورة للمنتج الذي تم تسليمه مع إيصال المتجر حتى نتمكن من تصعيد الأمر إلى الفريق المختص.
+كما يُرجى الاحتفاظ بالمنتج والفاتورة بحالتهم الأصلية لأي مساعدة إضافية.",Replacements
+WRONG ITEM COMPLAINT,"I've escalated this to the relevant team, and they will get back to you via email within **-** minutes. The full resolution may take up to **-** hours.
+
+I appreciate your patience and understanding!","لقد قمت بتصعيد الأمر إلى الفريق المختص، وسيتم التواصل معك عبر البريد الإلكتروني خلال - دقيقة. قد يستغرق حله حتى - ساعة.
+نقدر تفهمك الأمر!",Replacements
+WE HAVE DELIVERED CORRECT ITEM - POLITELY DENY TO CX,"I’m really sorry for any inconvenience this has caused. I’ve reviewed your order for [ITEM_NAME], and it appears the correct item was delivered as placed.","نأسف لأي إزعاج قد نكون تسببنا فيه. لقد راجعنا طلبك الخاص بـ [ITEM_NAME]، ويبدو أن المنتج صحيح وتم تسليمه كما طُلب.
+
+",Complaint Status & Denial
+WE HAVE DELIVERED CORRECT ITEM - POLITELY DENY TO CX,"I completely understand this might be disappointing, but I’m unable to process a return in this case. I truly appreciate your understanding.","نعتذر عن أي إزعاج، لكن للأسف لا يمكننا معالجة الإرجاع في هذه الحالة. نقدر تفهمكم ونعمل دائمًا على تحسين تجربتكم معنا.
+
+",Complaint Status & Denial
+EXPIRED ITEM COMPLAINT,"I’m really sorry for any inconvenience this may have caused.
+
+Please share a clear image of the item with the manufacturing and expiry dates visible, along with the store invoice, so I can escalate this to the team for further assistance.","نأسف لسماع ذلك, يرجى مشاركة صورة للمنتج موضح بها تواريخ التصنيع والانتهاء، بالإضافة إلى فاتورة المتجر، حتى نتمكن من تمرير الأمر إلى الفريق لتقديم المزيد من المساعدة.",Complaint - New/Highlight
+EXPIRED ITEM COMPLAINT,"I've escalated this issue to the team, and they will get back to you via email within **-** minutes. The full resolution may take up to **-** hours.
+
+Please keep the item and the original invoice for any refund or replacement. I appreciate your patience and understanding!","لقد قمت بتصعيد الأمر إلى الفريق المختص، وسيتم التواصل معك عبر البريد الإلكتروني خلال - دقيقة. قد تستغرق الحلول الكاملة حتى - ساعة.
+يرجى الاحتفاظ بالمنتج والفاتورة الأصلية لأي استرداد أو استبدال. أقدر صبرك وتفهمك!",Refund / Credit
+DAMAGED ITEM COMPLAINT,INTERNAL NOTE - WE DO NEED TO Ask Cx TO SHARE ITEM IMAGES TO SEE THE VISIBLE DAMAGE IN THE ITEM,INTERNAL NOTE - WE DO NEED TO Ask Cx TO SHARE ITEM IMAGES TO SEE THE VISIBLE DAMAGE IN THE ITEM,Complaint - New/Highlight
+DAMAGED ITEM COMPLAINT,Internal Note - Store Invoice is not required in Damaged Cases,Internal Note - Store Invoice is not required in Damaged Cases,Complaint - New/Highlight
+DAMAGED ITEM COMPLAINT,"I've escalated this to the team, and they’ll get back to you via email within **-** minutes. The full resolution may take up to **-** hours, and I truly appreciate your patience while they work on it! Please keep the item and store invoice for any refund/replacement.","لقد قمنا بتصعيد الأمر إلى الفريق المختص، وسيتم التواصل معكم عبر البريد الإلكتروني خلال - دقيقة. قد يستغرق الحل الكامل ما يصل إلى - ساعة، ونقدر صبركم أثناء معالجة الأمر.
+يرجى الاحتفاظ بالمنتج وفاتورة المتجر لأي استرداد أو استبدال.",Refund / Credit
+COMPLAINT ALREADY RAISED,"Your issue has already been escalated, and the team is actively working on it. You’ll receive an update as soon as possible.","تم بالفعل تصعيد الأمر، ويعمل فريقنا المختص على حلها. ستتلقى تحديثًا في أقرب وقت ممكن.
+",Complaint Status & Denial
+COMPLAINT ALREADY RAISED,The Order Management Team is aware of the issue and is working to resolve it. I’ve also provided an update to help speed up the process.,"فريق إدارة الطلبات على علم بالأمر الذي واجهك ويعمل على حلها، وقد قمنا أيضًا بتحديثهم للمساعدة في تسريع العملية.
+",Complaint Status & Denial
+COMPLAINT ALREADY RAISED,"Rest assured, the team is doing their best to get this sorted as quickly as possible.","لا داعى للقلق، فريقنا المختص يبذل قصارى جهده لحل هذه الأمر في أسرع وقت ممكن.
+",Complaint Status & Denial
+COMPLAINT ALREADY RAISED,"I've updated your case, and the team is working to resolve it as quickly as possible.","لقد قمتُ بتحديث طلبك، ويعمل فريقنا على حلها في أسرع وقت ممكن.
+",Complaint Status & Denial
+COMPLAINT ALREADY RAISED,"I've sent another update to speed things up. Rest assured, the team is working to resolve this as quickly as possible.","لقد قمت بالتحديث علي الأمر. كن مطمئنًا، الفريق يعمل على حل هذه المسألة في أسرع وقت ممكن.
+",Complaint Status & Denial
+CALLBACK,"I've requested a callback from the team, and they’ll contact you within 1 to 2 hours. I appreciate your patience!","لقد قمنا بتقديم طلب للتواصل معك هاتفيآ، وسيتم التواصل خلال ساعة إلى ساعتين. نقدر صبرك!
+",Follow-Up
+CX FOLLOWS UP ON THE COMPLAINT  - WITHIN SLA,"Dear <customer_name>, I’ve escalated your concern for order XXXX to the relevant team under reference number (Ticket ID XXXX).
+
+The complaint is already in progress, and we’re working to resolve it as soon as possible. You’ll receive an update from our escalation team shortly.
+
+The maximum resolution time is XXXX hours from when it was raised, but we’re doing our best to have this resolved sooner. I truly appreciate your patience and understanding.","عزيزي <customer_name>،
+لقد قمنا بتصعيد الشكوى الخاصة بالطلب XXXX إلى الفريق المختص تحت رقم المرجع (تذكرة رقم XXXX).
+نعمل حاليًا على معالجة الشكوى في أسرع وقت ممكن، وستتلقى تحديثًا من فريق التصعيد قريبًا.
+الحد الأقصى لحل الأمر هو XXXX ساعة، ونبذل قصارى جهدنا لحلها في وقت أقرب.
+نقدرتفهمك، وشكرًا لتواصلك معنا.!",Follow-Up
+Point to Remember >>>>>>>>>>>>>>>>>>>>>>,"*If the callback is raised after 10PM (UAE time), CX will receive the call from the team by 12 PM the next day.","*If the callback is raised after 10PM (UAE time), CX will receive the call from the team by 12 PM the next day.",Follow-Up
+"IF CX HAS ANY TECH ISSUES - PROBING CX AS PER KB & RAISE COMPLAINT
+- Application Issue
+- Unable to login/receive OTP
+- unable to change his account info","I've highlighted your request to the concerned team, and they’ll get back to you with a resolution within 4 to 6 hours. Let me know if there's anything else I can help with in the meantime!","لقد قمنا بالتحديث على طلبك للفريق المختص، وسيتواصلون معك بالحل خلال 4 إلى 6 ساعات. هل هناك أي استفسار  يمكنني مساعدتك به في هذه الأثناء!
+
+",Closure
+MOBILE NUMBER CHANGE OF ACCOUNT (NowNow Standalone app),"Due to maintaining the level of security on your account, We are unable to change the registered mobile number as it can be registered only once.","نظرًا للحفاظ على مستوى الأمان في حسابك، لا يمكننا تغيير رقم الجوال المسجل، حيث يمكن تسجيله مرة واحدة فقط.
+
+",Account & App Issues
+MOBILE NUMBER CHANGE OF ACCOUNT (NowNow Standalone app),"Please note that each phone number and email address can only be linked to one NowNow account.
+If you'd like, you can create a new account using your preferred mobile number and email.","يرجى ملاحظة أن كل رقم جوال وعنوان بريد إلكتروني يمكن ربطه بحساب واحد فقط على NowNow.
+إذا رغبت، يمكنك إنشاء حساب جديد باستخدام رقم الجوال والبريد الإلكتروني الذي تفضله.",Account & App Issues
+MOBILE NUMBER CHANGE OF ACCOUNT (Noon app),"You can update your mobile number by going to My Account > Profile Details > Change Mobile Number in the app.
+
+","يمكنك تحديث رقم هاتفك المحمول من خلال الذهاب إلى حسابي > تفاصيل الملف الشخصي > تغيير رقم الجوال في التطبيق.
+",Account & App Issues
+MOBILE NUMBER CHANGE OF ACCOUNT (Noon app),"If you also want to update the number linked to your saved addresses, head to the Address page and update it for each saved address individually.","
+وإذا كنت ترغب في تحديث الرقم المرتبط بالعناوين المحفوظة، يمكنك التوجه إلى صفحة العناوين وتحديث الرقم لكل عنوان محفوظ على حدة.",Account & App Issues
+Email or MOBILE NUMBER CHANGE OF ACCOUNT (NowNow on noon app),"For your account security, the registered email address cannot be changed.
+
+However, you can update your primary mobile number by going to ‘My Account’ > ‘Profile Details’ > ‘Change Mobile Number’ in the app.
+
+Please note, if you’d like to update the phone number linked to your saved addresses, you can do that by going to the ‘Address’ page and updating the number for each saved address individually.","لأمان حسابك، لا يمكن تغيير عنوان البريد الإلكتروني المسجل.
+
+لكن، يمكنك تحديث رقم هاتفك من خلال الذهاب إلى ""حسابي"" > ""تفاصيل الملف الشخصي"" > ""تغيير رقم الهاتف"" في التطبيق.
+
+يرجى ملاحظة أنه إذا كنت ترغب في تحديث رقم الهاتف المرتبط بعناوينك المحفوظة، يمكنك القيام بذلك من خلال صفحة ""العناوين"" وتحديث الرقم لكل عنوان محفوظ بشكل فردي.
+",Account & App Issues
+DELIVERY FREE (NO WAIVE-OFF),"Please note that, as per our policy, the delivery fee is based on the distance between the store and the customer’s address and is always applicable. Unfortunately, we are unable to waive it.",يرجى العلم بأن رسوم التوصيل تُحدد  بشكل تلقائي بناءً على المسافة بين المتجر وعنوان العميل، وذلك وفقًا لسياستنا. ,Policy Clarification / Feedback
+DELETE CARD FROM ACCOUNT,"If you wish to delete a saved card on the NowNow App, you can do so by going to My Account > Payment Method and clicking on the delete icon.
+
+Please note that you won’t be able to update (delete/change) your payment method if your current order is being processed. This can only be done once your order has been shipped.","إذا كنت ترغب في حذف بطاقة محفوظة على تطبيق NowNow، يمكنك ذلك من خلال الذهاب إلى حسابي > طريقة الدفع والضغط على أيقونة الحذف.
+يرجى ملاحظة أنه لا يمكن تحديث (حذف/تغيير) طريقة الدفع إذا كان طلبك الحالي قيد المعالجة. يمكن القيام بذلك فقط بعد شحن الطلب.",Payment & Wallet
+STORE REDUCED QUANTITY,"Please be informed that the store may sometimes adjust the quantity based on availability, and you are only charged for the quantity that is shipped and delivered.
+
+It’s possible that the item went out of stock, and the order was processed for the available quantity only. We appreciate your understanding.","يرجى العلم أن المتجر قد يقوم أحيانًا بتعديل الكمية بناءً على توفرها، ويتم تحصيل المبلغ فقط مقابل الكمية التي تم شحنها وتسليمها لك.
+من المحتمل أن يكون المنتج قد نفد من المخزون، ولذلك تمت معالجة الطلب بالكمية المتوفرة فقط. نقدر تفهمك!",Order Processing Delay
+PRICE INCREASED FOR AN ITEM,"The price has increased at the store due to updated supplier costs and market fluctuations. We truly understand how this might be frustrating, and we sincerely apologize for any inconvenience caused. This adjustment helps us maintain quality and service standards while ensuring the continued availability of our products. We appreciate your understanding.","تم تعديل السعر في المتجر نتيجة تحديث تكاليف المورد والتغيرات في السوق.
+يهدف هذا التعديل إلى الحفاظ على جودة المنتجات والخدمات، وضمان توفرها بشكل مستمر. 
+نأسف لأي إزعاج قد يكون نتج عن هذا التغيير، نقدر تفهمك الأمر.",Pricing & Charges
+If CX reaches out to us for NowNow plus subscription renewal query. ,"We’ve stopped the NowNow Plus subscription for all customers, and an email was sent about this earlier.
+
+I understand this might be disappointing, but we’ve got some exciting new features and updates coming soon.
+
+If you were already subscribed before it was discontinued, you’ll still enjoy unlimited free delivery until further notice.","لقد أوقفنا خدمة NowNow Plus لجميع العملاء، وقد تم إرسال بريد إلكتروني مسبق لإعلامك بذلك.
+
+نتفهم أن هذا قد يكون مخيبًا للآمال، لكن لدينا ميزات وتحديثات جديدة ومثيرة قادمة قريبًا.
+
+إذا كنت مشتركًا في NowNow Plus قبل إيقافها، فستستمر في الاستفادة من خدمة التوصيل المجاني غير المحدود حتى إشعار آخر.",Subscription & Fee Clarification
+WHAT IS NOON ONE SUBSCRIPTION,"noon One is an all-in-one subscription that offers free delivery and other special benefits.
+
+For full details, please visit: https://www.noon.com/uae-en/noon-one/","نون ون هو اشتراك شامل يقدم لك توصيلًا مجانيًا بالإضافة إلى مزايا خاصة أخرى.
+لمعرفة المزيد من التفاصيل حول نون ون، يمكنك زيارة الرابط التالي: https://www.noon.com/uae-en/noon-one/",Special Scenarios
+CX HAVING NOON ONE AND CX IS PLACING ORDER WITH NOWNOW APP AND NOT GETTING FREE DELIVERY,"Please note that Noon One benefits can only be availed on the Noon app and not on the NowNow app at the moment. However, our team is working on enabling Noon One in the NowNow app in the coming weeks, and we’ll notify you once it’s available.
+
+In the meantime, if you place your NowNow order through the Noon app, you will receive free delivery. However, if you use the NowNow standalone app, Noon One benefits will not be applicable.","يرجى ملاحظة أن مزايا نون ون متاحة حاليًا فقط عبر تطبيق نون، وليست مفعلة على تطبيق ناو ناو.
+يعمل فريقنا على توفير نون ون في تطبيق ناو ناو خلال الأسابيع القادمة، وسنقوم بإعلامك فور توفرها.
+ في الوقت الحالي، عند طلب ناو ناو من خلال تطبيق نون، ستحصل على توصيل مجاني.
+ لكن عند الطلب مباشرة عبر تطبيق ناو ناو، لن تكون مزايا نون ون متاحة حتى إشعار آخر.",Subscription & Fee Clarification
+CANCEL NOON ONE SUBSCRIPTION,"You can cancel your Noon One subscription directly through your Noon account in the Noon app.
+
+To do so, go to My Account > Noon One > Manage Membership and follow the cancellation steps.
+
+Please note that even after cancellation, your membership benefits will remain active until the expiry date, but the subscription won’t be renewed.","يمكنك إلغاء اشتراك نون ون مباشرة من خلال حسابك على تطبيق نون.
+للقيام بذلك:
+انتقل إلى حسابي.
+اضغط على نون ون.
+اختر إدارة العضوية واتبع خطوات الإلغاء.
+💡 يرجى ملاحظة أنه حتى بعد الإلغاء، ستظل مزايا عضويتك سارية حتى تاريخ انتهائها، ولكن لن يتم تجديد الاشتراك تلقائيًا.",Cancellation
+CX CAME FOR NOON RELATED ORDER/CONCERN,"It looks like your concern is related to Noon.com, which is a separate entity.
+
+For assistance, you can:
+
+Chat with the Noon team by going to ""My Account"" > ""Need Help?"", then go ahead with the appropriate reason selection.
+or
+
+Email them at care@noon.com, and they’ll investigate and provide the best possible solution.
+
+Hope this helps!","يبدو أن استفسارك يخص Noon.com، وهي جهة مستقلة.
+
+للحصول على المساعدة، يمكنك:
+
+التحدث مع فريق نون عبر خيار ""حسابي"" > ""هل تحتاج إلى مساعدة؟""، ثم المتابعة باختيار السبب المناسب.
+أو
+
+إرسال بريد إلكتروني إلى care@noon.com، وسيقوم الفريق بمراجعة الأمر وتقديم أفضل حل ممكن.
+
+نأمل أن يكون هذا مفيدًا!",Misrouted Chat Handling
+CX CAME FOR NOON MINUTES RELATED ORDER/CONCERN,"Noon Minutes is a separate entity. You can contact their team through the Noon Minutes app by following these steps:
+
+- Open the Noon Minutes app.
+- Go to My Account.
+- Select Orders.
+- Choose the relevant order.
+- Click on Need Help.
+- Select the appropriate option for assistance.
+
+Alternatively, you can email them at help.minutes@noon.com for further support","نون مينتس خدمة مستقلة، وللحصول على الدعم، يمكنك التواصل مع فريقهم من خلال تطبيق نون مينتس باتباع الخطوات التالية:
+نرجو منك الدخول على تطبيق نون مينتس.
+ ثم الانتقال إلى ""حسابي"".
+اختيار ""الطلبات"" وتحديد الطلب المعني.
+النقر على ""بحاجة إلى مساعدة؟"".
+تحديد السبب المناسب للحصول على الدعم المطلوب.
+كما يمكنك التواصل مع الفريق عبر البريد الإلكتروني help.minutes@noon.com لمزيد من المساعدة.
+
+
+
+
+
+",Misrouted Chat Handling
+CX WANTS INVOICE,"Please note that order invoices are provided by our store partners. However, service and delivery fee invoices can be downloaded separately from the ""Orders"" section in the NowNow app.
+
+Simply go to My Account > Orders and tap on ‘Download’ to get the Delivery & Service Fee invoices.
+
+Hope this helps!","يرجى العلم بأن فواتير الطلبات يتم إصدارها من قبل شركائنا في المتاجر. ومع ذلك، يمكنك تحميل فواتير رسوم الخدمة والتوصيل بشكل منفصل من قسم الطلبات في تطبيق ناو ناو.
+للقيام بذلك، انتقل إلى حسابي > الطلبات ثم اضغط على ""تحميل"" للحصول على فواتير رسوم التوصيل والخدمة.
+نأمل أن يكون هذا مفيدًا لك!",Self-Service Guide
+Before Placing Order - If Cx Asks to Add a TIP for DA - Appliable to noon App only,"Thanks so much for wanting to appreciate our riders!
+
+You can add a tip at checkout while placing your order through NowNow on the Noon app. Just make sure to do it before placing the order, as the option won’t be available afterward.","شكرًا جزيلاً لرغبتك في تقدير سائقي التوصيل لدينا!
+
+يمكنك إضافة بقشيش أثناء عملية الدفع عند تقديم الطلب من خلال ناو ناو في تطبيق نون. فقط تأكد من إضافته قبل تأكيد الطلب، لأن الخيار لن يكون متاحًا بعد ذلك.",Special Scenarios
+After Placing Order - If Cx Asks to Add a TIP for DA - Appliable to noon App only,"Really appreciate your kind gesture and support for our riders!
+
+Since the order has already been placed, we’re not able to make any changes at this stage.
+
+For future orders, you can add a tip during checkout when placing your order through NowNow on the Noon app. 
+
+Just a note—the option won’t be available once the order goes through. Hope that helps!","نقدّر جدًا لطفك ودعمك لسائقي التوصيل لدينا!
+
+نظرًا لأن الطلب قد تم بالفعل، لا يمكننا إجراء أي تعديلات في هذه المرحلة.
+
+في الطلبات القادمة، يمكنك إضافة بقشيش أثناء عملية الدفع عند الطلب من خلال ناو ناو في تطبيق نون.
+
+فقط للتنويه، خيار البقشيش لن يكون متاحًا بعد إتمام الطلب. نأمل أن تكون هذه المعلومة مفيدة!",Special Scenarios
+IF CX Asks to Add a TIP for DA (NOWNOW STANDALONE APP) - POLITELY DENY,"Thank you for acknowledging the efforts of our riders.
+
+At this time, the NowNow app does not support a tipping feature. However, your feedback is valuable and will be shared with the relevant team for future evaluation.
+
+If you are placing an order through the Noon app, the option to add a tip is available during the checkout process. Please note that this feature is only accessible prior to order confirmation.","شكرًا لتقديرك لجهود سائقي التوصيل لدينا.
+
+في الوقت الحالي، تطبيق ناو ناو لا يدعم خاصية إضافة البقشيش. ومع ذلك، نقدّر ملاحظتك وسنشاركها مع الفريق المختص للنظر فيها مستقبلًا.
+
+إذا كنت تقدم طلبك من خلال تطبيق نون، يمكنك إضافة بقشيش أثناء عملية الدفع. يرجى ملاحظة أن هذه الخاصية متاحة فقط قبل تأكيد الطلب.",Closure
+STORE NOT SHOWING IN APP,The delivery of orders depends on the availability of stores in your location. You can check this by entering your pinned location in the app.,"يعتمد توصيل الطلبات على توفر المتاجر في منطقتك. يمكنك التحقق من ذلك عن طريق إدخال موقعك في التطبيق.
+",Account & App Issues
+STORE NOT SHOWING IN APP,The delivery of orders depends on the availability of stores in your location. You can check this by entering your pinned location in the app.,"يمكنك استكشاف المتاجر المتاحة وفقًا لعنوانك المحفوظ أو منطقتك، حيث ستظهر لك فقط المتاجر التي توفر التوصيل إلى موقعك. نواصل توسيع نطاق خدماتنا لضمان تغطية أوسع وتجربة أفضل لك!
+",Account & App Issues
+EXISTING CX WANTS DISCOUNT CODE/COUPON,All our ongoing offers and discounts are available on the app. Feel free to check them out for the latest deals!,يمكنك تفقد جميع العروض والخصومات المتاحة حاليًا داخل التطبيق. نوصي بتصفحه بانتظام للبقاء على اطلاع على أحدث العروض!,Pricing & Charges
+EXISTING CX WANTS DISCOUNT CODE/COUPON,We regularly update and add new offers to the app. I’d recommend checking the app often for exciting upcoming deals!,يرجى العلم أنه يتم تحديث العروض بشكل مستمر على التطبيق. يُمكنك التحقق منه بانتظام للاستفادة من أحدث العروض والخصومات!,Pricing & Charges
+Why 1 AED charged on the card?,"A charge of 1 AED is applied when you add a new card or re-add an existing card after deleting it. However, this amount is automatically reversed to the same source card within 3-7 working days, depending on your bank’s policy. I appreciate your patience and understanding.","عند إضافة بطاقة جديدة أو إعادة إضافة بطاقة محذوفة، يتم فرض رسوم قدرها 1 درهم إماراتي. يتم استرداد هذا المبلغ تلقائيًا إلى نفس البطاقة خلال 3-7 أيام عمل، وفقًا لسياسة البنك الخاص بك. نقدر تفهمك.
+",Account & App Issues
+"NON-MUSLIM ITEMS
+
+It is applicable to nownow on Noon App only
+Non-Halal items are available on Standalone app","As per the latest updates to our application, the Non-Muslim section has been removed. This feature is no longer available.",وفقًا لأحدث التحديثات في تطبيقنا، لم يعد قسم غير المسلمين متاحًا.,Religious/Sensitive Items
+FOLLOW UP CASE,"Your concern has already been escalated to the relevant team, and they are actively working on it.
+
+I have highlighted it again to speed up the process. Rest assured, they will do their best to resolve it as soon as possible. I appreciate your patience and understanding.",تم تمرير الأمر إلى الفريق المختص، وهم يعملون على حلها. لقد قمت بإعادة التأكيد عليها لتسريع المعالجة، وسيبذلون قصارى جهدهم لحلها في أقرب وقت ممكن. نقدر صبرك وتفهمك.,Follow-Up
+"COMPENSATION COUPON / TOKEN OF APOLOGY
+
+Provide if the CX faced OOS, delays, Or order issues & requests a service or delivery fee waiver for a future order.
+
+ Coupon Applicable only on Noon App ONLY and not applicable on Standalone app","I sincerely apologize for the delay in delivering your order. I understand how frustrating this must be, and I truly appreciate your patience.
+
+As a token of our apology, we’d like to offer you a 10% discount on your next purchase with the code ZCR2RS. This coupon can be used twice and gives a discount of up to AED/SAR 10.",أسف على التأخير في تسليم طلبك ونقدر صبرك وتفهمك. كتعويض، نقدم لك خصمًا بنسبة 10% على مشترياتك القادمة باستخدام الكود ZCR2RS، والذي يمكن استخدامه مرتين بحد أقصى 10 دراهم/ريالات لكل طلب.,Pricing & Charges
+"COMPENSATION COUPON / TOKEN OF APOLOGY
+
+Provide if the CX faced OOS, delays, Or order issues & requests a service or delivery fee waiver for a future order.
+
+ Coupon Applicable only on Noon App ONLY and not applicable on Standalone app",We're committed to making this right. Let us know if there's anything else we can do for you.,نحن ملتزمون بحل هذا الأمر لك. لا تتردد في إبلاغنا إذا كان هناك أي شيء آخر يمكننا مساعدتك به.,Pricing & Charges
+Partnerships Related - Wants to Sell on NowNow,"Thank you for your interest in NowNow! We’re more than happy to assist you. For any sponsorship or business proposals, please reach out to our team at partnerships@noonnownow.com. You can also register at this link: https://www.noonnownow.com/merchant/partner-with-us",شكرًا لاهتمامك بـ NowNow! نحن متحمسون لاستكشاف فرص التعاون معك. لأي استفسارات حول الشراكات التجارية أو الرعاية، يرجى التواصل معنا عبر البريد الإلكتروني: partnerships@noonnownow.com. كما يمكنك التسجيل مباشرة من خلال الرابط: https://www.noonnownow.com/merchant/partner-with-us.,Closure
+"Collaboration Partnership Related
+
+*Offering A Marketing / Social Media / Influencer Type of Service(s).","Thank you for your interest!
+
+Please reach out to us at collab@noonnownow.com, and our team will get back to you with the next steps.",نشكرك على اهتمامك! يمكنك التواصل معنا عبر البريد الإلكتروني collab@noonnownow.com، وسيقوم فريقنا بالرد عليك ومشاركة الخطوات التالية.,Closure
+Why price increased - Non Weighable items,"I’m really sorry for any inconvenience this may have caused you. The price has increased at the store's end due to updated supplier costs and market fluctuations. 
+
+We strive to maintain our quality and service standards, and this adjustment reflects the current market conditions to ensure the continued availability of our products. I truly appreciate your patience and understanding regarding this matter.",نقدّر تفهمك بشأن تعديل الأسعار، والذي تم من قبل المتجر استجابةً لتكاليف الموردين المحدثة وتقلبات السوق. نحن ملتزمون بالحفاظ على معايير الجودة والخدمة لضمان استمرار توفر المنتجات. لا تتردد في التواصل معنا إذا كان لديك أي استفسارات إضافية.,Pricing & Charges
+Why price increased - Weighable items,"Please note that the weight of weighable items may vary depending on their packaging or the quantity available in stock at the store.
+
+As a result, the store may adjust the quantity in your order to reflect the actual weight, which could be slightly higher or lower based on availability. You will be charged accordingly for the final weight/quantity shipped.
+
+We appreciate your patience and understanding. Let us know if you need any further assistance!""","يرجى العلم أن وزن المنتجات القابلة للوزن قد يختلف بناءً على طريقة تعبئتها أو الكمية المتوفرة في مخزون المتجر.
+
+وبناءً على ذلك، قد يقوم المتجر بتحديث الكمية في طلبك لتعكس الوزن الفعلي، والذي قد يكون أكثر أو أقل حسب التوفر. سيتم احتساب التكلفة وفقًا للوزن/الكمية التي سيتم شحنها.
+
+نقدر تفهمك وصبرك، ولا تتردد في التواصل معنا إذا كنت بحاجة إلى أي مساعدة إضافية!",Pricing & Charges
+Why store reduced quantity,"Please be informed that, on rare occasions, stores may run out of stock for a partial quantity of an item. Unfortunately, this has happened in your case, and we sincerely apologize for any inconvenience this may have caused you.
+
+Rest assured that our store partners always strive to fulfill orders in full. We truly appreciate your patience and understanding. Please let us know if we can assist you further!","يرجى العلم أنه في بعض الأحيان قد تنفد كمية جزئية من أحد المنتجات في المتاجر، رغم أن هذا نادر الحدوث. للأسف، هذا ما حدث في طلبك، ونأسف بصدق لأي إزعاج قد يكون قد سببه لك.
+
+نؤكد لك أن شركاءنا في المتاجر يسعون دائمًا لتلبية جميع الطلبات بالكامل. نقدر تفهمك وصبرك، ونتمنى لك تجربة تسوق أفضل في المستقبل. لا تتردد في التواصل معنا إذا احتجت لأي مساعدة إضافية.",Apology
+Delay due to high volume in orders,"I regret to inform you that due to a higher volume of orders, there will be a delay in the delivery of your order. Rest assured, we are doing our best to deliver the orders as soon as possible.
+
+We truly understand how frustrating this can be, and we apologize for any inconvenience this may have caused you. We greatly appreciate your patience in this matter.","أعتذر لك عن التأخير في تسليم طلبك بسبب ارتفاع حجم الطلبات. كن مطمئنًا، نحن نعمل جاهدين لإيصال طلبك في أقرب وقت ممكن.
+
+نقدّر صبرك وتفهمك، ونأسف لأي إزعاج قد يكون سببه لك هذا التأخير. لا تتردد في التواصل معنا إذا كنت بحاجة إلى أي مساعدة أخرى.",Order Processing Delay
+Self Cancellation,"We're sorry to hear about the cancellation. Since this is a self-service option, please click on 'Orders,' then go to 'Track Order.' You will find the option to cancel the order there.",نأسف لسماعنا عن رغبتك في الإلغاء. نظرًا لأن هذه خدمة ذاتية، يُرجى النقر على 'الطلبات' ثم الانتقال إلى 'تتبع الطلب'، حيث ستجد خيار إلغاء الطلب هناك.,Cancellation
+Steps to use Noon Credits -,"You can use Noon Credits to place an order by activating the option to use them, provided you have a payment method already added to your account. After selecting this option, scroll to the bottom of the cart and place your order.
+
+Make sure that a verified payment method, such as a credit/debit card or Apple Pay, is already added to your account in the payment methods section before using Noon Credits.
+
+If the payable cart amount is not fully covered by your Noon Credits, you can combine another payment method (debit/credit card) or Apple Pay to pay the remaining amount and complete the transaction.","يمكنك استخدام رصيد نون لإتمام طلبك من خلال تفعيله أثناء الدفع، بشرط أن تكون قد أضفت مسبقًا طريقة دفع إلى حسابك. بعد تفعيل الخيار، انتقل إلى أسفل سلة التسوق وقم بتقديم الطلب.
+
+يرجى التأكد من إضافة طريقة دفع مُفعّلة، مثل بطاقة ائتمان/خصم أو Apple Pay، في قسم طرق الدفع بحسابك قبل استخدام رصيد نون.
+
+في حال لم يكن رصيد نون كافيًا لتغطية المبلغ الإجمالي، يمكنك استكمال الدفع باستخدام طريقة دفع أخرى (بطاقة خصم/ائتمان أو Apple Pay) لإتمام العملية بنجاح.",Payment & Wallet
+Service Fee charge - UAE,"The service fee is 3.5% of your final order value, with a minimum of AED 2.5 and capped at AED 5. This fee helps support the platform by improving the overall experience and covering operating costs, including the addition of new features and customer service.",يرجى العلم أن رسوم الخدمة تبلغ 3.5% من القيمة النهائية لطلبك، بحد أدنى 2.5 درهم إماراتي وبحد أقصى 5 دراهم إماراتية. تهدف هذه الرسوم إلى دعم المنصة من خلال تحسين تجربتك، وتغطية تكاليف التشغيل، بما في ذلك تطوير الميزات الجديدة وتعزيز خدمة العملاء.,Self-Service Guide
+Service Fee charge - KSA,"The service fee is 3.50% of your order value and helps support the platform by improving the overall experience and covering operating costs, including new features, packaging costs, and customer service. The fee is a minimum of 2.50 SAR and capped at 5 SAR.",يرجى العلم أن رسوم الخدمة هي 3.50% من قيمة طلبك وتساعد في دعم المنصة من خلال تحسين التجربة الشاملة وتغطية تكاليف التشغيل، بما في ذلك الميزات الجديدة، تكاليف التغليف، وخدمة العملاء. الرسوم بحد أدنى 2.50 ريال سعودي وبحد أقصى 5 ريالات سعودية.,Self-Service Guide
+Noon/NowNow Packaging fee (UAE),"All orders you place will now be delivered in the respective merchant/store's bags, and the corresponding bag cost will be added to your order total.
+
+Please note that there is no Noon/NowNow packaging; it is store packaging, and the charge for bags is standard as per the store's policy.
+
+For more information, please check the following link:
+https://help.noonnownow.com/portal/en/kb/articles/what-is-packaging-cost","All orders you place will now be delivered in the respective merchant/store's bags, and the corresponding bag cost will be added to your order total.
+
+Please note that there is no Noon/NowNow packaging; it is store packaging, and the charge for bags is standard as per the store's policy.
+
+For more information, please check the following link:
+https://help.noonnownow.com/portal/en/kb/articles/what-is-packaging-cost",Pricing & Charges
+Why packaging fee when already paying Service Fee,"Please be informed that the service fee is charged by NowNow, while the delivery packaging fee is charged by the store. Both fees serve different purposes.",يرجى العلم أن رسوم الخدمة تُفرض من قبل ناو ناو، في حين أن رسوم تغليف التوصيل تُفرض من قبل المتجر، وكلٌ منهما يغطي جوانب مختلفة من الخدمة,Pricing & Charges
+Why packaging fee when already paying Service Fee,"The service fee is charged by NowNow, whereas the packaging fee is set by the store, each serving a different purpose.","يرجى العلم أن رسوم الخدمة تُفرض من قبل ناو ناو، بينما يتم تحديد رسوم التغليف من قبل المتجر، ولكل منهما غرض مختلف.
+",Pricing & Charges
+Small order fee - UAE (Applicable only on noon NowNow platform),"The small order fee allows customers to place an order below a store's minimum order value. In this regard, customers will need to pay a small order fee as follows:
+
+AED 4.5 for all stores, except those listed below.
+AED 5.5 for all Spinneys, Viva, and Union Coop stores.","يرجى العلم أن رسوم الطلب الصغير تتيح للعملاء إمكانية تقديم طلب بقيمة أقل من الحد الأدنى المحدد للمتجر. في هذه الحالة، سيتم تطبيق رسوم الطلب الصغير كما يلي:
+
+4.5 دراهم إماراتية لجميع المتاجر، باستثناء المتاجر المذكورة أدناه.
+
+5.5 دراهم إماراتية لمتاجر سبينيس، فيفا، ويونيون كووب.",Subscription & Fee Clarification
+If Cx Requests to 'Add a New Store' on NowNow / noon app which is near to him,"Thank you for choosing NowNow as your preferred shopping app and for sharing your thoughts with us! We're working hard to list more stores on the NowNow and Noon apps and ensure that their products are available for our valued customers.
+
+Alternatively, you can email partnerships@noonnownow.com for any suggestions related to new stores in your area.","نشكرك على اختيار ناو ناو كتطبيق التسوق المفضل لديك ومشاركة آرائك معنا! نحن نواصل العمل على إضافة المزيد من المتاجر إلى تطبيقي ناو ناو ونون لضمان توفر مجموعة واسعة من المنتجات لعملائنا الكرام.
+
+إذا كان لديك أي اقتراحات حول متاجر جديدة ترغب في رؤيتها في منطقتك، فلا تتردد في التواصل معنا عبر البريد الإلكتروني: partnerships@noonnownow.com.",Closure
+How to Change language in the App,"Please follow these steps to change the language:
+
+1.Log in to your account.
+2. Go to the ""Account"" section.
+3. Click on ""Language.""
+4. The language will be changed.
+
+I hope this information is helpful and resolves your query!","لتغيير اللغة، يرجى اتباع الخطوات التالية:
+قم بتسجيل الدخول إلى حسابك.
+انتقل إلى قسم ""الحساب"".
+انقر على ""اللغة"".
+سيتم تغيير اللغة تلقائيًا.
+نأمل أن يكون هذا الشرح مفيدًا لك!",Follow-Up
+How to Update Name in Profile section,"You can change your name by following these steps:
+
+1. Go to the ""Account"" section of the application.
+2. Navigate to ""Profile Details.""
+3. Click on ""Edit.""
+4. Change your name/surname.
+5. Click on ""Save Profile.""
+
+I hope this information helps and resolves your query!","لتغيير اسمك في التطبيق، يرجى اتباع الخطوات التالية:
+انتقل إلى قسم ""الحساب"" في التطبيق.
+توجه إلى ""تفاصيل الملف الشخصي"".
+انقر على ""تعديل"".
+قم بتحديث الاسم/اسم العائلة.
+انقر على ""حفظ الملف الشخصي"".
+نأمل أن يكون هذا الشرح مفيدًا لك!",App & Account General
+Troubleshoot Steps - Use only one (1) statement as per the Cx's issue,"General Troubleshooting:
+Please try logging out and logging back in, updating the app (if needed), clearing the cache, or reinstalling the application.
+
+Issue with Placing a New Order:
+Please try logging out and logging back in, updating the app (if needed), and then attempt to place a new order.
+
+Issue with Accepting/Rejecting Replacements:
+Please try logging out and logging back in, updating the app (if needed), and then try to accept or reject the replacements.
+
+Issue with Adding Payment Cards/Details:
+Please try logging out and logging back in, updating the app (if needed), and then try adding your payment details again.
+
+If the Issue Persists:
+If the issue still persists, please contact us again, and we will be happy to assist you further.
+","استكشاف الأخطاء العامة:
+يرجى محاولة تسجيل الخروج ثم تسجيل الدخول مرة أخرى، تحديث التطبيق (إذا لزم الأمر)، مسح ذاكرة التخزين المؤقت، أو إعادة تثبيت التطبيق.
+مشكلة في تقديم طلب جديد:
+حاول تسجيل الخروج ثم تسجيل الدخول مرة أخرى، تحديث التطبيق (إذا لزم الأمر)، ثم محاولة تقديم الطلب مجددًا.
+مشكلة في قبول/رفض البدائل:
+يرجى تسجيل الخروج ثم تسجيل الدخول مرة أخرى، تحديث التطبيق (إذا لزم الأمر)، ثم محاولة قبول أو رفض البدائل مرة أخرى.
+مشكلة في إضافة بطاقات/تفاصيل الدفع:
+يرجى تسجيل الخروج ثم تسجيل الدخول مرة أخرى، تحديث التطبيق (إذا لزم الأمر)، ثم محاولة إضافة تفاصيل الدفع الخاصة بك مرة أخرى.
+إذا استمرت المشكلة:
+لا تتردد في التواصل معنا مرة أخرى، وسنكون سعداء بمساعدتك!
+",Payment & Wallet
+Troubleshoot Steps - if above doesn't work - Follow KB > Technology Scenarios > https://shorturl.at/MlBpO,FOR INTERNAL USE - Ask relevant probing to the Cx mentioned in the KB and help Cx accordingly,FOR INTERNAL USE - Ask relevant probing to the Cx mentioned in the KB and help Cx accordingly,Follow-Up
+Combine order - If Cx gives a request to send 2 or more orders together with same rider,"I regret to inform you that we are unable to combine the orders. Rest assured, we are continuously working hard to improve our services for you, and we hope to implement some changes in the near future.",أأسف لإبلاغك بأننا غير قادرين حاليًا على دمج الطلبات. ومع ذلك، نعمل باستمرار على تحسين خدماتنا لتقديم تجربة أفضل لك، ونأمل في توفير هذه الميزة مستقبلاً.,Special Scenarios
+If Cx use Bad / Abusive / Foul language - Use Insult by customer scenario: https://tinyurl.com/yfnwpv6s,"First warning:
+I understand that you’re upset, and I’m here to help resolve this issue. However, I kindly ask that you use professional language.
+
+Second warning:
+I can’t continue the conversation if you use profanity. Please refrain from using such language, or I will have to end our chat.
+
+Third warning:
+I’m still here to help and resolve this issue, but unfortunately, I must follow our protocols and end this conversation. Thank you for choosing NowNow. Goodbye.","التنبيه الأول:
+نحن هنا لمساعدتك، وأتفهم انزعاجك. ومع ذلك، أرجو منك استخدام لغة مهنية لضمان تواصل فعّال.
+
+التنبيه الثاني:
+يرجى الامتناع عن استخدام أي ألفاظ غير لائقة، حيث قد يؤثر ذلك على إمكانية استمرار المحادثة.
+
+التنبيه الثالث:
+نرغب دائمًا في مساعدتك، ولكن وفقًا لسياساتنا، يتعين علينا إنهاء المحادثة في حال عدم الالتزام بأسلوب لائق في التواصل. شكرًا لتفهمك، ونتمنى لك يومًا سعيدًا.",Closure
+"If Cx asks for full amount refund for an item / order but in CS Tool, Cx has already got a discount on the same item / order","Regarding your query with order number ""_________"", I want to inform you that you have been refunded the amount of 'REFUNDED_PRICE' for the item ""ITEM_NAME.""
+
+You initially paid AED REFUNDED_PRICE instead of AED ITEM_PRICE, receiving a discount of DISCOUNT_AMOUNT on the item. Please note that the discounted amount is not eligible for a refund.","""بخصوص استفسارك حول رقم الطلب ""_________""، نود إبلاغك بأنه تم رد مبلغ 'REFUNDED_PRICE' لك مقابل المنتج ""ITEM_NAME"".
+في البداية، تم دفع REFUNDED_PRICE درهم إماراتي بدلاً من ITEM_PRICE درهم إماراتي، حيث حصلت على خصم بقيمة DISCOUNT_AMOUNT على المنتج. يرجى ملاحظة أن مبلغ الخصم غير قابل للاسترداد.
+إذا كان لديك أي استفسارات أخرى، لا تتردد في التواصل معنا، وسنكون سعداء بمساعدتك!""",Refund / Credit
+"Delete My Account - NowNow App
+
+Before sharing A/c deletion steps - Sorry/apologize once to Cx and try to know the reason. 
+
+If Cx shares the issue, try to assist to the Cx in best possible way and pacify him/her. 
+
+if Cx is still adamant to Delete the A/c - share the account deleting steps and inforomarion.","We're sorry to hear that you want to delete your account. If there's anything we can do to improve your experience, we'd love to help. However, if you still wish to proceed, you can delete your account through the app by following these steps:
+
+- Open the NowNow app.
+- Go to the Account section.
+- Select Delete Account.
+- Confirm by choosing Cancel/Delete.
+
+Please note that once your account is deleted, your registered contact number and email may no longer be usable for a new account. If you decide to return, you may need to sign up with a different contact number.
+
+If you have any concerns, feel free to reach out—we’d be happy to assist!","نأسف لسماع رغبتك في حذف حسابك. إذا كان هناك أي شيء يمكننا القيام به لتحسين تجربتك، فنحن هنا للمساعدة! ومع ذلك، إذا كنت لا تزال ترغب في المتابعة، يمكنك حذف حسابك من خلال التطبيق باتباع الخطوات التالية:
+يرجى الدخول على تطبيق ناو ناو.
+انتقل إلى قسم الحساب.
+اختر حذف الحساب.
+أكد اختيارك بالنقر على إلغاء/حذف.
+يرجى ملاحظة أنه بمجرد حذف حسابك، قد لا تتمكن من استخدام رقم الاتصال المسجل أو البريد الإلكتروني لإنشاء حساب جديد. إذا قررت العودة مستقبلاً، فقد تحتاج إلى التسجيل باستخدام رقم اتصال مختلف.
+إذا كانت لديك أي استفسارات، لا تتردد في التواصل معنا، وسنكون سعداء بمساعدتك!
+",Cancellation
+"Delete My Account - Noon App
+
+Before sharing A/c deletion steps - Sorry/apologize once to Cx and try to know the reason. 
+
+If Cx shares the issue, try to assist to the Cx in best possible way and pacify him/her. 
+
+if Cx is still adamant to Delete the A/c - share the account deleting steps and inforomarion.","We're sorry to hear that you want to delete your account. If there's anything we can do to improve your experience, we'd love to help.
+
+If you still wish to proceed, you can delete your account through the Noon app by following these steps:
+
+- Open the Noon app.
+- Go to the Account section.
+- Click on Security under the Settings section.
+- Select Delete Account.
+- Check the box for ""I have read the terms and conditions.""
+- Confirm by selecting ""Delete your account.""
+
+This process may take 3-5 minutes to reflect across all devices.
+
+Please note that once your account is deleted, your registered contact number and email may no longer be reusable. If you decide to return, you may need to sign up with a different contact number.
+
+Let us know if there's anything else we can assist you with!","""نأسف لسماع أنك ترغب في حذف حسابك. إذا كان هناك أي شيء يمكننا القيام به لتحسين تجربتك، فنحن هنا للمساعدة!
+إذا كنت لا تزال ترغب في المتابعة، يمكنك حذف حسابك من خلال تطبيق نون باتباع الخطوات التالية:
+يرجى الدخول على تطبيق نون.
+انتقل إلى قسم الحساب.
+اضغط على الأمان ضمن قسم الإعدادات.
+حدد حذف الحساب.
+قم بتحديد المربع الخاص بـ ""لقد قرأت الشروط والأحكام"".
+أكد الحذف عبر اختيار ""حذف حسابك"".
+قد يستغرق تنفيذ هذه العملية من 3 إلى 5 دقائق حتى تنعكس عبر جميع الأجهزة.
+⚠ يرجى ملاحظة أنه بمجرد حذف حسابك، قد لا يكون رقم الاتصال والبريد الإلكتروني المسجلان قابلين لإعادة الاستخدام. إذا قررت العودة في المستقبل، فقد تحتاج إلى التسجيل باستخدام رقم اتصال مختلف.
+إذا كنت بحاجة إلى أي مساعدة أخرى، لا تتردد في التواصل معنا!",Closure
+Job Related query,"We're always glad to hear from those interested in a career at NowNow!
+
+Please stay tuned for job offers or opportunities on our social media platforms and follow us at noon on LinkedIn: www.linkedin.com.
+
+You can also check the following link for available positions:
+https://www.linkedin.com/company/nooncom/jobs/
+
+We appreciate your time and interest!","يسعدنا دائمًا سماع اهتمامك بالانضمام إلى فريق ناو ناو!
+للاطلاع على الفرص الوظيفية، يرجى متابعة الوظائف المتاحة عبر منصاتنا على وسائل التواصل الاجتماعي، ويمكنك متابعتنا على لينكدإن من خلال الرابط التالي:
+www.linkedin.com
+كما يمكنك التقديم على الوظائف المتاحة عبر الرابط:
+https://www.linkedin.com/company/nooncom/jobs/
+نقدّر وقتك واهتمامك، ونتمنى لك التوفيق!",Follow-Up
+How to Use/Apply a coupon code,"Here’s how you can apply a coupon code:
+
+- Add items to your basket.
+- Before checkout, look for the ""Enter Coupon Code"" option at the bottom.
+- Click on your basket to review your items. Just below them, you'll find the ""Enter Coupon Code"" option above the price breakdown.
+- Enter the coupon code and apply it.
+
+Please note that the code must be applied before placing the order.","""يمكنك تطبيق كود الخصم باتباع الخطوات التالية:
+إضافة المنتجات: قم بإضافة المنتجات التي ترغب في شرائها إلى سلة التسوق.
+مراجعة السلة: قبل إتمام الدفع، انتقل إلى سلة التسوق لمراجعة المنتجات.
+إدخال كود الخصم: ابحث عن خيار ""إدخال كود الخصم"" الموجود أسفل سلة التسوق وفوق تفاصيل السعر.
+تطبيق الخصم: أدخل كود الخصم، ثم اضغط على ""تطبيق"" للاستفادة من الخصم.
+⚠️ ملاحظة: يجب إدخال كود الخصم قبل إتمام الطلب، حيث لا يمكن إضافته بعد تأكيد الدفع.""",Pricing & Charges
+COD (Cash on Delivery),"Currently, we accept only card payments, including credit and debit cards (VISA/Mastercard), as well as Apple Pay and Noon Credits.
+
+Cash on delivery (COD) is not available at this time, but we’ll be happy to offer it if this changes in the future","حاليًا، يتم قبول الدفع فقط عبر البطاقات، بما في ذلك بطاقات الائتمان والخصم (Visa/Mastercard)، بالإضافة إلى Apple Pay ومحفظة نون.
+🚫 يرجى العلم أن الدفع عند الاستلام (COD) غير متوفر في الوقت الحالي، ولكن في حال توفره مستقبلاً، سنكون سعداء بإعلامك بذلك!",Payment & Wallet
+Payment Issues Related (Payment on Hold),"Please provide the following details to raise a ticket:
+
+- First 6 and last 4 digits of your card
+- Card issuing bank name
+- App version
+- Are you using a virtual card?","لمساعدتك بشكل أفضل، يرجى تزويدنا بالتفاصيل التالية:
+أول 6 وأخر 4 أرقام من بطاقتك
+اسم البنك المُصدر للبطاقة
+إصدار التطبيق الذي تستخدمه
+هل البطاقة المستخدمة افتراضية؟
+بمجرد تزويدنا بهذه التفاصيل، سنقوم بمراجعة الأمر واتخاذ اللازم في أسرع وقت ممكن.",Payment & Wallet
+Payment Issues after ticket raised,"Rest assured, I have escalated this issue to the relevant team, and we will aim to resolve it within the next ** hours. Please note your ticket number: '____________' for future reference.
+
+Additionally, please avoid placing a new order more than three times","""أؤكد لك أنه تم تمرير الأمر إلى الفريق المختص، وسيتم حلها خلال الـ ** ساعة القادمة. يمكنك متابعة التحديثات باستخدام رقم الشكوى: '____________' عند الحاجة.
+نرجو منك تجنب تقديم طلب جديد أكثر من ثلاث مرات لضمان معالجة المشكلة بكفاءة. شكراً لتفهمك!""",Payment & Wallet
+Update payment method ,"Please note that you won't be able to update or change your payment method while your current order is being processed. This can only be done once the order has been shipped.
+
+Thank you for your understanding!","يرجى العلم أنه لا يمكن تحديث أو تغيير طريقة الدفع أثناء معالجة الطلب الحالي. يمكنك تعديلها فقط بعد شحن الطلب.
+شكرًا لتفهمك!",Closure
+When amount Will Refund,"I can see in the system that the team has processed a refund of AED ___ to your original payment method as the final resolution. It should reflect in your account within 3 to 7 working days, depending on your bank’s policy.","""يرجى العلم أن الفريق قد قام بمعالجة استرداد بقيمة ** درهم إماراتي إلى طريقة الدفع الأصلية كحل نهائي. من المتوقع أن يظهر المبلغ في حسابك خلال 3 إلى 7 أيام عمل، وفقًا لسياسة البنك الخاص بك.
+",Refund / Credit
+When amount Already refunded,"Upon reviewing order number '_____', we confirm that a refund of AED _____ was processed on REFUND_DATE as the final resolution.
+
+Refunds typically take 3 to 7 working days, depending on the bank’s policy.",بعد مراجعة الطلب رقم '_____'، نؤكد أنه تم معالجة استرداد بقيمة ** درهم إماراتي بتاريخ ** كحل نهائي. يرجى ملاحظة أن عملية الاسترداد قد تستغرق من 3 إلى 7 أيام عمل وفقًا لسياسة البنك.,Refund / Credit
+1 AED Refund - UAE,"To save your payment method and ensure a seamless experience for future orders, we pre-authorize your added payment method (Apple Pay or credit/debit card) once for 1 AED.
+
+This amount is immediately reversed from our end and refunded within 3 to 7 working days, depending on your bank’s policy","لضكان تجربة دفع سلسة للطلبات المستقبلية، يتم حجز مبلغ 1 درهم اماراتي بشكل مؤقت عند إضافة طريقة دفع جديدة (Apple Pay أو بطاقة الائتمان/الخصم).""يتم عكس هذا المبلغ فورًا من جهتنا، ويعاد المبلغ إلى حسابك خلال 3 إلى 7 أيام عمل، وفقًا لسياسة البنك الخاص بك.",Pricing & Charges
+1 SAR Refund - KSA,"To save your payment method and ensure a seamless experience for future orders, we pre-authorize your added payment method (Apple Pay or credit/debit card) once for 1 SAR.
+
+This amount is immediately reversed from our end and refunded within 3 to 7 working days, depending on your bank’s policy.","""لضمان تجربة دفع سلسة للطلبات المستقبلية، يتم حجز مبلغ 1 ريال سعودي بشكل مؤقت عند إضافة طريقة دفع جديدة (Apple Pay أو بطاقة الائتمان/الخصم).
+يتم عكس هذا المبلغ فورًا من جهتنا، ويعاد المبلغ إلى حسابك خلال 3 إلى 7 أيام عمل، وفقًا لسياسة البنك الخاص بك.",Refund / Credit
+Account creation help,"Getting started with us is easy!
+
+Simply register on the NowNow app using your mobile number, name, and email address.
+Once you're in, confirm your location, add your debit/credit card, and start shopping.
+
+Currently, we accept debit/credit card payments (VISA/Mastercard), Apple Pay, and Noon Credits (when ordering through the Noon app). Cash on delivery is not available.","
+كل ما عليك فعله هو التسجيل في تطبيق ناو ناو باستخدام رقم هاتفك، واسمك، وبريدك الإلكتروني.
+بعد تسجيل الدخول، قم بتحديد موقعك، وأضف بطاقة الائتمان أو الخصم الخاصة بك، وابدأ التسوق فورًا.
+
+حاليًا، نقبل الدفع عبر بطاقات الائتمان/الخصم (فيزا/ماستركارد)، Apple Pay، ونون كريديت (عند الطلب من تطبيق نون). خيار الدفع عند الاستلام غير متوفر في الوقت الحالي.",Account & App Issues
+How to Add Credit/Debit card OR Steps to add Credit/Debit card on Noon App,"Here’s how you can add a payment card:
+
+- Add the items you’d like to your cart.
+
+- Tap on Go to Checkout.
+
+- Select the Debit/Credit card option.
+
+- Tap the plus (+) icon to add a new card.
+
+- Enter your card number, expiry date, and CVV, then tap Save card.
+
+Let me know if you face any issues along the way!","إليك طريقة إضافة بطاقة الدفع:
+
+أضف المنتجات التي ترغب بها إلى سلة التسوق.
+
+اضغط على ""الانتقال إلى الدفع"".
+
+اختر خيار ""بطاقة الائتمان/الخصم"".
+
+اضغط على رمز + لإضافة بطاقة جديدة.
+
+أدخل رقم البطاقة، تاريخ الانتهاء، ورمز CVV، ثم اضغط على ""حفظ البطاقة"".
+
+إذا واجهت أي مشكلة أثناء العملية، لا تتردد في التواصل معي!",Payment & Wallet
+Contact us,"For any further queries, you can reach out to our chat support via the Noon/NowNow app or email us at care@noonnownow.com. We're available 24/7!","إذا كان لديك أي استفسارات إضافية، يمكنك التواصل مع دعم الدردشة من خلال تطبيق نون/ناو ناو أو مراسلتنا عبر البريد الإلكتروني على care@noonnownow.com.
+نحن متواجدون على مدار الساعة لمساعدتك!",App & Account General
+Ask department - when Cx Query / Order no. is not matching to a NowNow order,"Could you confirm if you're referring to Noon, Noon Food, Noon Minutes, or NowNow?",هل يمكنك توضيح ما إذا كنت تشير إلى نون، نون فود، نون دقيقة، أم ناو ناو؟ حتى نتمكن من مساعدتك بشكل أفضل.,Misrouted Chat Handling
+Highlight-Issue,Please give me two minutes while I flag this issue to the right team to handle it for you.,يرجى منحي دقيقتين أثناء تمرير الأمر  إلى الفريق المختص لمعالجتها لك.,Complaint - New/Highlight
+Highlight-Request,Please give me a couple of minutes while I pass this along to the right team to get things sorted for you.,"يرجى منحي بضع دقائق أثناء تمرير الأمر  إلى الفريق المختص لحلها لك.
+",Complaint - New/Highlight
+Use as per required information - Ask order number/registered details/ email ID,"Could you share your registered details in our app, such as your mobile number, order number, or email address? This will help me assist you better!","هل يمكنك مشاركة تفاصيلك المسجلة في تطبيقنا، مثل رقم الهاتف، رقم الطلب، أو عنوان البريد الإلكتروني؟ سيساعدني ذلك في خدمتك بشكل أفضل!
+",Account & App Issues
+Refund Request confirmation from CX - below 15 AED/SAR,"I have looked into this and sincerely apologize for the inconvenience. We can proceed with a refund of AED xxx for the item(s), which will be credited to your original payment method within 3-7 working days, depending on your bank’s policy.
+
+Please confirm so I can submit the refund request to our team.
+","بعد التحقق، أعتذر بصدق عن أي إزعاج. يمكننا المضي قدمًا في استرداد مبلغ XXX درهم إماراتي مقابل المنتج/المنتجات، وسيتم تحويله إلى وسيلة الدفع الأصلية خلال 3 إلى 7 أيام عمل، وفقًا لسياسة البنك الخاص بك.
+يرجى تأكيد ذلك حتى أتمكن من تقديم طلب الاسترداد إلى الفريق المختص.",Refund / Credit
+Refund Request confirmation from CX - below 15 AED/SAR,"If you still need the item(s), you may place a new order, and we’ll do our best to ensure a smooth experience for you. I truly appreciate your patience and understanding.",إذا كنت لا تزال بحاجة إلى المنتج/المنتجات، يمكنك تقديم طلب جديد، وسنحرص على توفير تجربة سلسة لك. نقدر حقًا صبرك وتفهمك.,Refund / Credit
+Exceptional refund offer below AED/SAR 15,"As an exception, we are proceeding with the refund this time. For any similar issues in the future, please try to keep the store invoice, as it will help our team assist you more smoothly. I appreciate your understanding.",كاستثناء، سنقوم بمعالجة استرداد المبلغ هذه المرة. في المستقبل، يُفضل الاحتفاظ بفاتورة المتجر، حيث سيساعد ذلك فريقنا في تقديم المساعدة بشكل أسرع. نقدر تفهمك!,Refund / Credit
+If Cx requests to Add a New Store on NowNow/noon app which is near to him,"Thank you for choosing NowNow as your preferred shopping app and for sharing this with us! We're working hard to onboard more stores on NowNow and Noon to better serve our valued customers.
+
+If you have any suggestions for new stores in your area, feel free to reach out to us at partnerships@noonnownow.com.","شكرًا لاختيارك ناو ناو كتطبيق التسوق المفضل لديك ولمشاركتنا ملاحظاتك! نحن نسعى دائمًا لإضافة المزيد من المتاجر على ناو ناو ونون لتحسين تجربة عملائنا.
+إذا كان لديك أي اقتراحات لمتاجر جديدة في منطقتك، يُرجى التواصل معنا عبر البريد الإلكتروني: partnerships@noonnownow.com.",Closure
+NEW30 T&C (For New Users),"Coupon Code: NEW30
+
+- Max Discount: 30% (up to AED 20)
+- Eligible Customers: New users
+- Usage: Valid on the first 3 orders
+- Minimum Order Value: AED 50
+- Valid Until: December 31, 2025
+
+Stay tuned to our app and social media pages for future promotions!","رمز الكوبون: NEW30
+
+✅ الحد الأقصى للخصم: 30٪ (حتى 20 درهم)
+✅ المؤهلون: المستخدمون الجدد
+✅ عدد مرات الاستخدام: صالح لأول 3 طلبات
+✅ الحد الأدنى لقيمة الطلب: 50 درهم
+✅ الصلاحية: حتى 31 ديسمبر 2025
+
+💡 تابع تطبيقنا وصفحاتنا على وسائل التواصل الاجتماعي للبقاء على اطلاع بأحدث العروض!",Pricing & Charges
+Order can not be cancelled once placed. ,You can cancel the order from the Orders page before it is accepted or processed by the merchant,"يمكنك إلغاء طلبك من صفحة 'الطلبات' قبل أن يتم قبوله أو معالجته من قبل التاجر.
+",Cancellation
+Order can not be cancelled once accepted/Processed,"Once an order is accepted, it cannot be returned or replaced, as stated in the app. Unfortunately, this also means it cannot be canceled. I appreciate your patience and understanding","بمجرد قبول الطلب، لا يمكن إرجاعه أو استبداله، كما هو موضح في التطبيق. للأسف، هذا يعني أيضًا عدم إمكانية إلغائه. نقدر تفهمك!
+",Cancellation
+"Retention Script for ""Due to Delay Cases"" (A)
+
+Assures CX that we highlighted his order personally to expedite and see if Cx is keeping the order","I'm really sorry for the trouble you've faced—I get how frustrating that must be.
+
+Let me check what options we have right away, and I’ll do my best to speed things up and get this sorted for you as quickly as possible.","أعتذر جدًا على الإزعاج اللي واجهته، ومتفهم تمامًا قد إيش الموضوع كان مزعج لك.
+
+راح أتحقق من البدائل المتاحة فورًا، وبأسرع وقت ممكن بحاول أتابع الموضوع شخصيًا علشان نحل المشكلة بأسرع وقت.",Follow-Up
+Due to Delay Cases (B),"Additionally, I’d like to offer you a coupon code for your next order: (XXXXX). We truly hope to serve you better moving forward. Thank you so much for your patience.",وبالإضافة إلى ذلك، حاب أقدم لك كود خصم لطلبك القادم: (XXXXX). نأمل أن نخدمك بشكل أفضل في المرات القادمة، وشكرًا جزيلًا على صبرك وتفهمك.,Pricing & Charges
+Due to Delay Cases (C),"This is definitely not the experience we want for our customers. I can arrange a refund of the delivery fee for this order.
+
+If that works for you, I’ll raise a ticket right away to get it processed. Would you like me to proceed?","هذا بالتأكيد مو النوع من التجارب اللي نتمناها لعملائنا. أقدر أرجع لك رسوم التوصيل على هذا الطلب.
+
+إذا كان يناسبك، راح أفتح تذكرة الآن علشان نبدأ في إجراءات الاسترداد. تحب أتابع؟",Refund / Credit
+"
+Due to Delay (D) - If still Cx asks to Cancel the Order, Use this Script >>","
+I'm really sorry to know you’d still like to cancel the order. I’ve processed your cancellation request, and the refund will be issued to the original payment method you used. It should reflect within 3–7 working days for debit/credit card or Apple Pay, and within 24–48 hours for Noon Credits, if applicable.
+
+You’re welcome to use the coupon code I shared earlier on your next order. We truly hope to serve you better and give you a smoother experience next time.","آسف جدًا لسماع إنك لا تزال حاب تلغي الطلب. تم تنفيذ طلب الإلغاء، وسيتم استرجاع المبلغ إلى وسيلة الدفع الأصلية اللي استخدمتها.
+الاسترداد راح يظهر خلال 3 إلى 7 أيام عمل إذا كان الدفع عن طريق البطاقة أو Apple Pay، وخلال 24 إلى 48 ساعة إذا كان باستخدام رصيد نون (إذا انطبق).
+
+تقدر تستخدم كود الخصم اللي شاركته معك سابقًا في طلبك القادم.
+نأمل نخدمك بشكل أفضل في المرات القادمة ونقدم لك تجربة تسوق مميزة.",Pricing & Charges
+"Retention Script 2 in ""Out of Stock Cases""
+
+We can waive the ""Delivery Fee if applicable, or Offer a Coupon Code and try to convince the customer
+
+If still Cx adamant to cancel the order, make sure we inform Cx about OOS, Replacement Offered/Not Offered etc. as per Order Status on CS Tool
+","I’m very sorry about this experience—it’s definitely not what we want for our customers. I can arrange a refund of the delivery fee (AED/SAR XX) for this order.
+
+If that works for you, I’ll raise a ticket right away to process the refund. Would you like me to go ahead?","أعتذر جدًا عن هذه التجربة، فهي بالتأكيد ليست ما نطمح إليه لعملائنا. أقدر أرجع لك رسوم التوصيل بقيمة XX درهم/ريال على هذا الطلب.
+
+إذا كان يناسبك، راح أفتح تذكرة الآن علشان نبدأ في إجراءات الاسترداد. تحب أتابع؟",Pricing & Charges
+"Retention Script 2 in ""Out of Stock Cases""
+
+We can waive the ""Delivery Fee if applicable, or Offer a Coupon Code and try to convince the customer
+
+If still Cx adamant to cancel the order, make sure we inform Cx about OOS, Replacement Offered/Not Offered etc. as per Order Status on CS Tool
+","The amount should reflect in your source card or bank account within 3–7 working days, depending on your bank’s policy. Let me know if you need any further assistance!","راح يظهر المبلغ في بطاقتك أو حسابك البنكي خلال 3 إلى 7 أيام عمل، وذلك حسب سياسة البنك الخاص بك.
+إذا تحتاج أي مساعدة إضافية، أنا حاضر!",Pricing & Charges
+"Order cancelled by CS:  Placed, Accepted or replaced status","We're sorry to hear you'd like to cancel your order. As requested, it has been cancelled from my side.
+
+Please note that no charges were applied, as we only charge once the order is marked as shipped.","نأسف لسماع رغبتك في إلغاء الطلب. تم الإلغاء من جانبي بناءً على طلبك.
+
+يرجى ملاحظة أنه لم يتم خصم أي مبلغ، حيث نقوم بعملية الخصم فقط بعد أن يتم تجهيز الطلب للشحن.",Cancellation
+"Order cancelled by CS:  Approved, Ready to pack, Ready to Ship, OFD status","We're sorry to hear you'd like to cancel your order. As requested, it has been cancelled.
+
+If you paid by card or Apple Pay, the refund will reflect within 3–7 business days, depending on your bank's policy. For Noon Credits, the refund will appear in your wallet within 24–48 hours","نأسف لسماع رغبتك في إلغاء الطلب. تم الإلغاء بناءً على طلبك.
+
+إذا تم الدفع باستخدام البطاقة أو Apple Pay، فسيتم استرجاع المبلغ خلال ٣ إلى ٧ أيام عمل، وذلك حسب سياسة البنك. أما إذا تم الدفع باستخدام رصيد نون، فسيظهر المبلغ في المحفظة خلال ٢٤ إلى ٤٨ ساعة.",Refund / Credit
+Transfer NowNow Arabic Chat to arabic department,هلا! مرحبًا بك في ناو ناو، معك (Agent Name). يسعدني مساعدتك!,,Payment & Wallet
+Transfer NowNow Arabic Chat to arabic department,يرجى الانتظار، سأقوم بتحويل المحادثة إلى قسم الدعم باللغة العربية,,Misrouted Chat Handling
+Transfer Noon Chat ,Thank you for reaching out to NowNow. I see that you're inquiring about an order from noon.com. Please hold while we transfer your chat. A Noon UAE representative will assist you shortly. Thank you for your patience.,"شكرًا لتواصلك مع ناو ناو. كما نرى أن استفسارك يتعلق بطلب من نون. يرجى الانتظار بينما نقوم بتحويل محادثتك إلى فريق نون الإمارات، وسيتم التواصل معك قريبًا. نقدر صبرك!
+",Closure
+If Noon Chat not transferred ,"It seems the chat is not getting transferred. However, you can contact Noon’s customer support team at 80038888 from 9:00 AM to 11:00 PM or email them at care@noon.com, and they will assist you.",يبدو أن المحادثة لم يتم تحويلها. لا تقلق! يمكنك التواصل مباشرة مع فريق دعم عملاء نون على الرقم 80038888 من الساعة 9:00 صباحًا حتى 11:00 مساءً، أو عبر البريد الإلكتروني care@noon.com، وسيكونون سعداء بمساعدتك.,Misrouted Chat Handling
+Noon Food Chat Transfer - Noon food Enquiry,"Thank you for reaching out to NowNow. Since your inquiry is about a Noon Food order, please follow these steps:
+
+- Open the Noon Food app.
+- Go to the Accounts page.
+- Navigate to the Orders section.
+- Select the order you need help with.
+- Tap the Help button.
+- Choose the appropriate reason for your issue.
+
+The Noon Food team will review your request and assist you accordingly.","شكرًا لتواصلك مع ناو ناو. نظرًا لأن استفسارك يخص طلبًا من نون فود، يُرجى اتباع الخطوات التالية للحصول على المساعدة:
+نرجو منك الدخول على تطبيق نون فود.
+انتقل إلى صفحة ""الحساب"".
+اضغط على ""الطلبات"" واختر الطلب المعني.
+اضغط على ""المساعدة"" وحدد السبب المناسب لمشكلتك.
+سيتولى فريق نون فود مراجعة طلبك وتقديم الدعم اللازم لك.",Closure
+ADDRESS CHANGE - SPECIAL REQUEST,"We have forwarded your address change request to the logistics team, and you will receive an update within 10-15 minutes.
+
+The team will check if delivery to the updated location is possible; otherwise, they will get back to you.
+
+If the new address is nearby, I recommend waiting until the order is shipped. You will receive the delivery agent’s contact details via the app, and you can coordinate directly with them regarding the address","""يرجى العلم أنه تم رفع طلب تعديل لعنوانك إلى فريق الخدمات اللوجستية، وسيتم تحديثك خلال 10-15 دقيقة.
+سيقوم الفريق بالتحقق من إمكانية التوصيل إلى العنوان الجديد، وفي حال تعذر ذلك، سيتم التواصل معك لإبلاغك بالخيارات المتاحة.
+إذا كان العنوان الجديد قريبًا، نوصي بالانتظار حتى يتم شحن الطلب، حيث ستتلقى تفاصيل مندوب التوصيل عبر التطبيق، مما يتيح لك التنسيق معه مباشرة بشأن العنوان.",Special Scenarios
+CX WANTS TO CANCEL THE ORDER IN READY TO PACK STAGE,"Inform the customer that the order is in the preparation stage and it cannot be canceled. 
+But If the customer still insists to Cancel - Update the CX about the discount part (if used any discount in order)","Inform the customer that the order is in the preparation stage and it cannot be canceled. 
+But If the customer still insists to Cancel - Update the CX about the discount part (if used any discount in order)",Cancellation
+CX WANTS TO CANCEL THE ORDER IN READY TO PACK STAGE,Your cancellation request has been raised and will be reviewed by our team within 10-15 minutes. You can track the order status in the app for further updates,"تم تقديم طلب الإلغاء الخاص بك وسيتم مراجعته من قبل فريقنا خلال 10-15 دقيقة. يمكنك متابعة حالة الطلب من خلال التطبيق لمزيد من التحديثات.
+
+",Cancellation
+Update payment method ,"You won’t be able to update or change the payment method for an order that is being processed. 
+However, for new orders, you can select your preferred card, add a new card, or use Apple Pay and Noon Credits at checkout.","يرجى العلم أنه لا يمكن تعديل طريقة الدفع أثناء معالجة الطلب الحالي.
+ومع ذلك، يمكنك تحديد بطاقة مفضلة، إضافة بطاقة جديدة، أو استخدام Apple Pay وNoon Credits عند إتمام الدفع للطلبات المستقبلية.",Payment & Wallet
+Feedback Statement 1,"Thank you for sharing your feedback. I’m really sorry for the trouble this has caused. I completely understand how frustrating this can be, and I’ve shared your concerns with the team so they can work on improving this experience","شكرًا لمشاركتك ملاحظاتك. لقد قمت بتمريرها إلى الفريق المعني للعمل على تحسين التجربة مستقبلاً، ونأسف لأي إزعاج.
+",Closure
+Feedback Statement 2,I’ve noted your feedback and passed it along to the team. They’ll be looking into this closely to help improve the experience going forward. We’ll do our best to make sure this doesn’t happen again,تم تسجيل ملاحظاتك ومشاركتها مع الفريق المختص لمراجعتها وتحسين التجربة مستقبلاً. نحرص دائمًا على تطوير خدماتنا لضمان أفضل تجربة ممكنة.,Policy Clarification / Feedback
+"I WANT TO ADD MORE QUANTITY, BUT SYSTEM IS NOT ALLOWIING","To ensure a fair chance for all customers, store partners may set purchase limits based on stock availability.
+
+If you’ve reached the maximum quantity allowed for an item, the system will automatically restrict adding more units to your cart. You can always check back later, as availability may change.","لضمان فرصة عادلة لجميع العملاء، قد يحدد شركاء المتاجر حدودًا للشراء بناءً على توفر المخزون.
+إذا وصلت إلى الحد الأقصى المسموح به لمنتج معين، فسيقوم النظام تلقائيًا بوقف إضافة المزيد من الوحدات إلى سلة التسوق.نوصي بالتحقق لاحقًا، حيث قد يتغير التوفر بمرور الوقت.",Technical Issue
+CX WANTS TO CANCEL THE ORDER IN SHIPPED STAGE,"Inform the customer that the order is shipped and it cannot be canceled. 
+But If the customer still insists to Cancel - Update the CX about the discount part (if used any discount in order)",نظرًا لأن طلبك قد تم شحنه بالفعل، لا يمكن إلغاؤه في هذه المرحلة. ومع ذلك، إذا كنت لا تزال ترغب في الإلغاء، يرجى ملاحظة أن أي خصومات تم استخدامها عند الطلب قد لا تكون قابلة للاسترداد. لا تتردد في إبلاغي بكيفية رغبتك في المتابعة.,Cancellation
+CX WANTS TO CANCEL THE ORDER IN SHIPPED STAGE,Your cancellation request has been submitted and will be reviewed by our team within 10–15 minutes. You can track the status in the app for the latest updates.,تم تقديم طلب الإلغاء الخاص بك وهو قيد المراجعة من قبل فريقنا. ستتم معالجته خلال 10-15 دقيقة، ويمكنك متابعة حالته من خلال التطبيق للاطلاع على آخر التحديثات.,Cancellation
+"IF CX ASKS in a 'WRONG / MISSING' etc, type of COMPLAINTS, ""WHAT WILL HE/SHE GET, whether a ""REFUND / REPLACEMENT""?","I completely understand your concern. Our order management team will review this and coordinate with the store partner. They’ll update you on the status of your refund or replacement within the given timeframe.
+
+Thank you for your patience while this is being looked into.","نتفهم استفسارك، ويعمل فريق إدارة الطلبات على مراجعة الأمر والتنسيق مع المتجر الشريك. سيتم تزويدك بتحديث بشأن استرداد المبلغ أو الاستبدال ضمن الإطار الزمني المحدد.
+نقدر صبرك وتعاونك.",Closure
+"No Amount is charged when order is placed, it will be charged when order is shipped.",Our payment process is designed to authorize the amount at the time of order placement but capture it only when the order is approved. This means you haven’t been charged for this order yet — the charge will only be applied once the order is shipped.,في عملية الدفع لدينا، يتم حجز المبلغ عند تقديم الطلب، ولكن لا يتم خصمه إلا بعد الموافقة على الطلب. هذا يعني أن المبلغ لم يُخصم منك بعد، وسيتم الخصم فقط عند شحن الطلب.,Payment & Wallet
+"No Amount is charged when order is placed, it will be charged when order is shipped- response 2","Our payment process allows us to authorize the amount at the time of order placement but capture it only when the order is shipped. The final amount charged will correspond to the value of the items that are shipped and delivered to you.
+
+So, if any item from your order gets canceled, you won’t be charged for that item in the final amount.","في عملية الدفع لدينا، يتم حجز المبلغ عند تقديم الطلب، ولكن لا يتم خصمه إلا عند شحن الطلب. سيتم الخصم بناءً على قيمة المنتجات التي تم شحنها وتسليمها إليك.
+لذلك، في حال إلغاء أي منتج من طلبك، لن يتم خصم قيمته من المبلغ النهائي.",Cancellation
+Is my information safe on your App/website?,"Yes, your information is completely safe and confidential with us. We do not share it with any third party.
+
+It’s securely stored in our system and only used to assist you whenever you have a query regarding your order or our service.",نعم، بياناتك محفوظة بأمان وسرية تامة. نحن لا نشاركها مع أي جهة خارجية، ويتم تخزينها بشكل آمن في نظامنا، حيث تُستخدم فقط لتقديم الدعم اللازم عند الحاجة إلى أي استفسارات حول طلباتك أو خدماتنا.,Self-Service Guide
+Is your Application/website is safe to use?,"Yes, our app is completely safe to use. We have advanced security measures in place to protect your data and ensure secure transactions.
+
+Your privacy is a top priority, and we do not share your information with any third parties.","""نعم، تطبيقنا آمن تمامًا، حيث نعتمد على أحدث إجراءات الأمان لحماية بياناتك وضمان عمليات دفع موثوقة. نلتزم بحماية خصوصيتك، ولا نشارك معلوماتك مع أي جهة خارجية.",App & Account General
+Is your Application/website is safe to use?,"Yes, our app is completely safe to use. We have advanced security measures in place to protect your data and ensure secure transactions.
+
+Your privacy is a top priority, and we do not share your information with any third parties.","نعم، تطبيقنا آمن تمامًا للاستخدام. لدينا تدابير أمان متقدمة لحماية بياناتك وضمان إجراء المعاملات بشكل آمن.
+
+خصوصيتك من أولوياتنا، ولا نقوم بمشاركة معلوماتك مع أي جهة خارجية.
+",App & Account General
+When a customer inquires about a feature that is not supported or implemented in our system.,"This feature/service isn’t available at the moment, but we’d be happy to support you if it’s introduced in the future.
+Appreciate your understanding!","هذه الميزة/الخدمة غير متوفرة في الوقت الحالي، ولكن يسعدنا مساعدتك إذا تم توفيرها في المستقبل.
+نقدّر تفهمك!",Self-Service Guide
+When a customer inquires about a feature that is not supported or implemented in our system.,"Although this feature isn’t available at the moment, we’ll be happy to help if it’s added in the future.",على الرغم من أن هذه الميزة غير متوفرة حاليًا، إلا أننا سنكون سعداء بمساعدتك إذا تم توفيرها في المستقبل.,App & Account General
